@@ -13,6 +13,9 @@
 | Re-run all links; archive key pages on Wayback | No | Wayback is unreachable from the build environment. Instead `data/raw/MANIFEST.csv` records URL, date and sha256 and `scripts/fetch_raw.sh` re-checks them. Links were not machine-checked. |
 | Second pass for framing that favours a narrative | Done once | Both directions are shown: software postings up about 15% since Feb 2025 yet 27.5% below Feb 2020; entry-level shortfall 19% with no economy-wide displacement found; advertised-pay premium shrinks from 5.7% to 2.4% under stricter controls. Findings stay descriptive and the authors' causal caveats are quoted. A reviewer outside the project should repeat this pass. |
 
+## Licensing
+Third-party raw files are not committed, except CC BY data (Indeed CSV, OWID CSV, ECB XML). A Robert Walters calculator printout was added by the project owner and removed from the tracked tree (it remains in the history of commit cc03129 on this branch; squash-merging keeps main clean). The site lists the terms found for each source. Levels.fyi and Robert Walters permissions are recommended before wide publication.
+
 ## Known weaknesses
 - Pay is cross-section only. No 2023 to 2026 trend exists in the collected data.
 - Lightcast shares are a Our World in Data republication, spot-checked against the report, confidence B.

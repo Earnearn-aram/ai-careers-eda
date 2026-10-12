@@ -43,6 +43,7 @@ def load() -> list[Observation]:
           _o("del-reg-2025-09", "employment_decline_age22_25_regression", "US", "2025-09", 16.0, "%", D, "Same regression estimate, September 2025 data.", conf=Confidence.B)]
     o += _hiringlab()
     o += _thailand_recruiters()
+    o += _rw_calculator()
     return o
 
 
@@ -125,4 +126,43 @@ def _hiringlab() -> list[Observation]:
           _hl("hl-pay-prem-mix", "advertised_pay_premium_post_chatgpt", "US", "2026-06", 5.7, "%", "Post-ChatGPT advertised-pay premium for AI-exposed jobs, controlling for occupation mix.", PY, segment="Control: occupation mix"),
           _hl("hl-pay-prem-title", "advertised_pay_premium_post_chatgpt", "US", "2026-06", 4.7, "%", "Same premium comparing each job title with its own past.", PY, segment="Control: job title"),
           _hl("hl-pay-prem-sen", "advertised_pay_premium_post_chatgpt", "US", "2026-06", 2.4, "%", "Same premium also holding seniority mix constant within occupations. The authors note this may over-correct.", PY, segment="Control: seniority mix")]
+    return o
+
+
+# Robert Walters Thailand salary-calculator results (Bangkok, Tech & Transformation, permanent), printed 2026-10-12.
+# Annual basic salary ranges in THB, exclusive of benefits and bonuses. 10 of 82 entries were captured.
+RW_ROWS = [  # title, job group, (lo25, hi25), (lo26, hi26), role mapping
+    ("AI Engineer", "AI", (720_000, 1_440_000), (720_000, 1_440_000), "AI / LLM Engineer"),
+    ("Senior AI Engineer", "AI", (840_000, 2_160_000), (840_000, 2_160_000), "AI / LLM Engineer"),
+    ("Head of AI", "AI", (2_160_000, 3_600_000), (2_160_000, 3_600_000), "AI leadership (context)"),
+    ("Chief of AI", "AI", (4_200_000, 7_200_000), (4_200_000, 7_200_000), "AI leadership (context)"),
+    ("Head of Product / Chief of Product", "Application Development", (2_800_000, 6_000_000), (3_000_000, 6_000_000), "Software / product (context)"),
+    ("Head of Software Development", "Application Development", (2_200_000, 4_600_000), (2_200_000, 4_800_000), "Software / product (context)"),
+    ("Head of UX/UI", "Application Development", (1_800_000, 3_600_000), (1_800_000, 3_600_000), "Software / product (context)"),
+    ("UX/UI Manager / Team Lead", "Application Development", (1_400_000, 2_200_000), (1_400_000, 2_200_000), "Software / product (context)"),
+    ("Development Manager", "Application Development", (1_800_000, 3_400_000), (1_800_000, 3_400_000), "Software / product (context)"),
+    ("Senior Product Manager", "Application Development", (1_440_000, 2_160_000), (1_440_000, 2_400_000), "Software / product (context)"),
+]
+RW_NOTE = ("Robert Walters Thailand salary calculator (Bangkok, Tech & Transformation, permanent), printed 2026-10-12. Basic salary, "
+           "exclusive of benefits and bonuses; recruiter benchmark from its own data, not a sample. Only 10 of 82 entries were captured. "
+           "https://www.robertwalters.co.th/our-services/salary-survey.html")
+
+
+def _rw_calculator() -> list[Observation]:
+    o = []
+    for i, (title, grp, a, b, role) in enumerate(RW_ROWS):
+        for yr, (lo, hi) in (("2025", a), ("2026", b)):
+            seg = f"{title} ({yr})"
+            for kind, v in (("low", lo), ("high", hi)):
+                o.append(_o(f"rw-calc-{i:02d}-{yr}-{kind}", f"pay_range_{kind}_base", "TH", yr, float(v), "THB", "robert_walters_th_2026",
+                            f"Annual basic salary, {kind} end of Robert Walters' range for {title} ({grp}), Bangkok, permanent, {yr} guide.",
+                            conf=Confidence.B, role=role, is_estimate=True, segment=seg, notes=RW_NOTE))
+    stats = [("Businesses giving pay rises in 2026", 94.0), ("Professionals looking for a new job in 2026", 67.0),
+             ("Professionals confident about job opportunities in the sector", 84.0), ("Professionals expecting a pay rise in 2026", 93.0)]
+    for j, (seg, v) in enumerate(stats):
+        o.append(_o(f"rw-calc-stat-{j}", "rw_survey_share", "TH", "2026", v, "%", "robert_walters_th_2026",
+                    f"Robert Walters Thailand 2026 survey headline for Tech & Transformation: {seg.lower()}. Sample size and survey period not stated on the page.",
+                    conf=Confidence.B, segment=seg, notes=RW_NOTE))
+    o.append(_o("rw-calc-tenure", "avg_tenure_years", "TH", "2026", 2.3, "years", "robert_walters_th_2026",
+                "Average tenure of Tech & Transformation professionals (Robert Walters Thailand 2026 survey headline). Sample not stated.", conf=Confidence.B, notes=RW_NOTE))
     return o

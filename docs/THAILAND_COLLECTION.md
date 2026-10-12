@@ -14,6 +14,12 @@ scraping.
    - Put range ends in two rows with metric `salary_range_bound` and say "low end" / "high end" in `definition`.
 3. `uv run aicareers-build && uv run pytest`. A row with a missing source or a bad field fails with the file and line.
 
+## Robert Walters calculator printouts (what worked)
+The 2026 survey printout added on 12 Oct 2026 (Bangkok, Tech & Transformation, area of focus AI) gave 2025 and 2026 ranges and survey headlines. More of the same would fill the biggest gaps. Using the online salary calculator, print each result page to PDF (set "Show" to the largest entries per page, or capture every page of the table) for:
+- Tech & Transformation: every Area of focus, especially Data, Analytics, Data Engineering, Digital Product, Cloud, Cybersecurity (the page lists 82 entries; only 10 were captured).
+- The same roles under Singapore, for a regional comparison, and earlier guide years if the calculator offers them.
+Keep the printouts out of the public repo (copyright; see the licences section on the site) and add only the figures.
+
 ## Where to look (in priority order)
 | Source | What to take | Notes |
 |---|---|---|

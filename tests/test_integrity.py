@@ -145,3 +145,22 @@ def test_thai_rows_split_cleanly_between_read_pages_and_search_summaries(obs):
         else:  # read on the page: must name it
             assert o.notes.count("http") >= 1, o.id
     assert "ai_posting_share_tdri" not in {o.metric for o in obs if o.metric in ("ai_skill_share", "ai_keyword_share")}
+
+
+def test_rw_calculator_claims_in_prose_match_data(obs):
+    by = {}
+    for o in obs:
+        if o.metric in ("pay_range_low_base", "pay_range_high_base"):
+            title, yr = o.segment.rsplit(" (", 1)
+            by.setdefault(title, {}).setdefault(yr.rstrip(")"), {})[o.metric] = o.value
+    assert all(v["2025"]["pay_range_low_base"] < v["2025"]["pay_range_high_base"] for v in by.values())
+    changed = {t for t, v in by.items() if v["2025"] != v["2026"]}
+    assert changed == {"Head of Product / Chief of Product", "Head of Software Development", "Senior Product Manager"}
+    ai = {"AI Engineer", "Senior AI Engineer", "Head of AI", "Chief of AI"}
+    assert ai <= set(by) and not (ai & changed)
+
+
+def test_site_has_licence_section_and_levels_attribution():
+    idx = (ROOT / "site" / "index.html").read_text()
+    assert 'id="licences"' in idx and "not legal advice" in idx
+    assert "Data source: Levels.fyi" in idx

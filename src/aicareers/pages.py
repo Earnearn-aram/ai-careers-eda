@@ -17,13 +17,31 @@ ROLE_NAME = {"ai-engineer": "AI / LLM Engineer", "ml-engineer": "Machine Learnin
 BANNER = '<div class="banner"><strong>Exploratory.</strong> Not financial or career advice. Thai data is limited. Figures marked confidence C are hidden unless you tick the box below.</div>'
 
 
+LICENCES = [  # source, what the site uses, terms found in the fetched files (12 Oct 2026), what we do
+    ("Indeed Hiring Lab AI Tracker (CSV)", "Monthly means computed from the daily CSV", "CC BY 4.0 (stated in the repository README)", "Attribute Indeed Hiring Lab. The CSV copy is kept with its licence."),
+    ("Indeed Hiring Lab articles", "Individual figures and short descriptions", "&copy; Indeed; no reuse licence seen", "Figures quoted with a link to the article. No article text copied beyond short phrases. Page copies not redistributed."),
+    ("Stanford AI Index 2026 (Lightcast data)", "Country shares and skill counts", "Report is licensed CC BY-ND 4.0 (stated in the report). Lightcast blog: no licence seen", "Attribute. Figures cited, not the report's charts or text. The PDF is not redistributed. The ND term is a reason to keep to cited figures."),
+    ("Our World in Data CSV of AI Index data", "Country-year values for 2023 to 2025", "No licence stated in the downloaded files; OWID usually publishes under CC BY and defers to the source's terms (to confirm)", "Attribute OWID, Lightcast and the AI Index."),
+    ("Stanford Digital Economy Lab paper", "Two headline figures", "No licence seen", "Short citation with link."),
+    ("Levels.fyi", "Medians, percentiles and sample sizes for a few roles", "Files refer to a Levels.fyi Data License; attribution required; the full terms were not read and the company sells data licences", "Data source: Levels.fyi (https://www.levels.fyi). Summary statistics only; raw files not redistributed. <strong>Written permission or a read of the licence is advisable before wider publication.</strong>"),
+    ("ECB reference rates", "USD conversion", "ECB reuse terms not re-checked in this project (reuse is generally permitted with acknowledgement)", "Source and date shown under each table."),
+    ("Robert Walters Thailand", "Salary ranges and survey headline percentages", "&copy; Robert Walters plc, all rights reserved; calculator terms not read", "Figures cited with attribution and link. Page printouts not redistributed. <strong>Permission advisable.</strong>"),
+    ("Michael Page Thailand", "One monthly figure and a stated increment range", "&copy; Michael Page plc", "Cited with attribution and link."),
+]
+
+
+def licence_table() -> str:
+    rows = "".join(f"<tr><td>{a}</td><td>{b}</td><td>{c}</td><td>{d}</td></tr>" for a, b, c, d in LICENCES)
+    return f'<table><thead><tr><th>Source</th><th>What this site uses</th><th>Terms found</th><th>What we do</th></tr></thead><tbody>{rows}</tbody></table>'
+
+
 def shell(title: str, body: str, depth: int = 0) -> str:
     up = "../" * depth
     nav = "".join(f'<a href="{up}{h}">{t}</a>' for h, t in [("index.html", "Overview"), ("thailand.html", "Thailand (limited evidence)"), ("index.html#roles", "Roles"), ("index.html#limits", "Method and limits"), ("index.html#sources", "Sources")])
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} | AI careers EDA</title><link rel="stylesheet" href="{up}style.css"></head><body>
 <header><nav>{nav}</nav>{BANNER}<label class="ctl"><input type="checkbox" id="incl-c"> include confidence C (secondary or unverified) figures</label></header>
-<main>{body}</main><footer><p class="sub">No tracking, no third-party requests. Data: <a href="{up}data/observations.json">observations.json</a>. Issues and corrections welcome on the repository.</p></footer>
+<main>{body}</main><footer><p class="sub">Data sources include Indeed Hiring Lab, Lightcast / Stanford AI Index, Our World in Data, Stanford Digital Economy Lab, Robert Walters, Michael Page, the ECB and Levels.fyi (Data source: Levels.fyi, https://www.levels.fyi). See <a href="{up}index.html#licences">licences and attribution</a>. No tracking, no third-party requests. Data: <a href="{up}data/observations.json">observations.json</a>. Issues and corrections welcome on the repository.</p></footer>
 <script src="{up}app.js"></script></body></html>'''
 
 
@@ -95,6 +113,9 @@ def index(obs: list[Observation]) -> str:
 </ul>
 <h2>How to contribute data or corrections</h2>
 <p>Open an issue with the figure, the primary URL, the retrieval date and the exact definition. Corrections to anything on these pages are welcome.</p>
+<h2 id="licences">Licences and attribution</h2>
+<p>This project republishes individual facts and figures with their sources, not whole datasets, reports or pages. Facts are generally not protected by copyright, but contract terms, database rights and the way figures are compiled and presented can still apply, and rules differ by country. <strong>This is not legal advice</strong>; the table records what the fetched files said about reuse. Rights holders who want a figure changed or removed can open an issue and it will be handled promptly.</p>
+{licence_table()}
 <h2 id="sources">Source list</h2>{chart("sources")}''')
 
 
@@ -107,8 +128,13 @@ def thailand(obs: list[Observation]) -> str:
 <li><strong>JobsDB Thailand counts:</strong> search counts depend on the query text and date, and queries like "AI" mix in trainers and sales roles. The site returned 403 to the build environment, and earlier counts were not recorded with an exact query and date, so none are entered. <code>data/processed/thailand_jobsdb_snapshots.csv</code> and <code>aicareers-log-snapshot</code> let a like-for-like series accumulate from now on. No trend can be drawn today.</li></ul>
 <p>The Lightcast chart of 22 economies on the <a href="index.html">overview</a> is the nearest comparison for APAC (Singapore and Hong Kong); it has no Thailand series.</p>
 <h2>Pay (local currency first; USD at the stated ECB rate)</h2>
-<p>Two verified Thai pay points exist, both context rather than AI or data roles: the generic <em>Software Engineer</em> median on Levels.fyi (self-reported, n shown) and the top of Michael Page's monthly range for <em>Solution Architect</em> (monthly, from its 2026 guide). Role-specific Thai figures for AI and data roles are unverified and appear only when confidence C is included. For other regions see the <a href="index.html#pay">overview</a>.</p>
+<p>Beyond the Robert Walters ranges above, two verified Thai pay points exist, both context rather than AI or data roles: the generic <em>Software Engineer</em> median on Levels.fyi (self-reported, n shown) and the top of Michael Page's monthly range for <em>Solution Architect</em> (monthly, from its 2026 guide). Role-specific Thai figures for AI and data roles are unverified and appear only when confidence C is included. For other regions see the <a href="index.html#pay">overview</a>.</p>
 {chart("pay", region="TH", title="Thailand: pay observations by source", sub="Annual total compensation (Levels.fyi) and monthly figures (recruiters) are different definitions; read the definition column.", name="th_pay")}
+<h2>Pay: Robert Walters salary calculator (Bangkok, Tech &amp; Transformation, permanent)</h2>
+<p>Annual <em>basic</em> salary ranges, excluding benefits and bonuses, from Robert Walters' online calculator for the 2025 and 2026 guides. Ten of the 82 entries for this filter were captured, including the four AI roles. These are the recruiter's benchmark ranges from its own placement data and public information, not a sample of workers. <strong>The AI Engineer, Senior AI Engineer, Head of AI and Chief of AI ranges are the same in the 2025 and 2026 guides.</strong> Among the other captured roles, three changed: the lower bound rose for Head of Product, and the upper bound rose for Head of Software Development and Senior Product Manager; the rest are unchanged. Two data points do not make a trend. The Senior AI Engineer range starts higher and ends higher than the AI Engineer range, which is the only seniority comparison available for Thailand.</p>
+{chart("ranges", metric_lo="pay_range_low_base", metric_hi="pay_range_high_base", stride="2", title="Bangkok annual basic salary range by role, 2025 and 2026 guides (THB; USD at ECB rate)", sub="Unit: THB per year, basic salary excluding benefits and bonuses. Robert Walters Thailand, permanent roles. Each role appears twice (2025 then 2026).", name="rw_ranges")}
+<p>The same page reports headline results of Robert Walters' 2026 survey for Tech &amp; Transformation in Thailand. Sample size, survey period and who responded are not stated on the page. It also rates demand for talent in this sector as High, with AI/ML Engineer, Digital Transformation Consultant and Digital Product Manager as the three most sought-after roles, and gives an average tenure of 2.3 years.</p>
+{chart("bars", metric="rw_survey_share", group="segment", title="Robert Walters Thailand 2026 survey: Tech & Transformation headline results", sub="Unit: %. Sample size, period and respondents not stated on the page.", name="rw_survey_share")}
 <h2>What Thai recruiters say (statements, not measurements)</h2>
 <p><strong>Robert Walters Thailand</strong> (hiring guides of 22 and 30 Dec 2025; the pay data sits in a salary survey that requires a request form) says hiring slowed in 2025, with companies scaling back mid-level hiring to favour senior candidates, and expects AI/ML engineers to be among the roles with the biggest demand in 2026. It names manual QA testers, level-1 support, data-entry operators and junior developers as the roles most exposed to AI because their tasks are repetitive, and expects entry-level salaries to be stable while mid- to senior-level raises are larger. A consultant is quoted on 280,000 new jobs across smart electronics, electric vehicles and semiconductors, with no source given and not specific to AI. <strong>Michael Page Thailand</strong> says unemployment is under 1% and candidates have strong bargaining power; no AI, data or ML role appears in its 2026 top-10 highest-paying list (the only technology role is Solution Architect). These are recruiters' views and expectations from commercial firms that earn fees from placements, not samples of workers or postings.</p>
 {chart("ranges", metric_lo="pay_increment_pct_low", metric_hi="pay_increment_pct_high", title="Thailand: expected salary increment when changing jobs, 2026", sub="Unit: % increase. Ranges stated by two recruiters (indicative, not survey samples).", name="th_increments")}
@@ -149,7 +175,10 @@ def role(slug: str, name: str, obs: list[Observation]) -> str:
         shared = [o for o in obs if o.metric == "ai_skill_postings_count"]
         req = ('<p>Not role-specific. These are skills listed across all US AI-skill postings (Lightcast, AI Index 2026), the closest available evidence for roles that build with these tools. Counts for 2024 and 2025 only; there is no 2023 baseline in the sources read.</p>'
                + chart("bars", metric="ai_skill_postings_count", group="skill", title="US AI job postings listing each skill, 2024 vs 2025", sub="Unit: postings (count). A posting can list several skills.", name=f"skills_{slug}"))
-    pay = chart("pay", role=rn, title=f"{name}: pay observations", sub="Local currency; USD at the stated ECB rate; sources shown separately.", name=f"pay_{slug}") if mine else '<p class="gap">No pay observations were collected for this role.</p>'
+    extra = ""
+    if slug == "ai-engineer":
+        extra = chart("ranges", metric_lo="pay_range_low_base", metric_hi="pay_range_high_base", stride="2", title="Thailand (Bangkok): annual basic salary range, Robert Walters, 2025 and 2026 guides", sub="Unit: THB per year, basic salary excluding benefits and bonuses; recruiter benchmark. Only the roles captured; see the Thailand page.", name="rw_ranges_ai")
+    pay = extra + chart("pay", role=rn, title=f"{name}: pay observations", sub="Local currency; USD at the stated ECB rate; sources shown separately.", name=f"pay_{slug}") if mine else '<p class="gap">No pay observations were collected for this role.</p>'
     ids = sorted({o.id for o in mine + shared})
     ev = f'<h2>Evidence on this page</h2><p class="sub">Observation ids (in <a href="../data/observations.json">observations.json</a>): {escape(", ".join(ids)) if ids else "none"}.</p>'
     return shell(name, f'''<h1>{escape(name)}</h1>

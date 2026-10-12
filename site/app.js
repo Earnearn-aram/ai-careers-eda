@@ -54,7 +54,7 @@ function bars(host) { // grouped horizontal bars: one row per region (or skill),
   const keys = [...new Set(rows.map(key))].sort((a, b) => bySkill ? Math.max(...rows.filter(r => key(r) === b).map(r => r.value)) - Math.max(...rows.filter(r => key(r) === a).map(r => r.value)) : lab(a).localeCompare(lab(b)));
   const years = [...new Set(rows.map(r => r.period))].sort();
   if (!rows.length) return frame(host, host.dataset.title, host.dataset.sub, rows, el("p", {class: "gap"}, ["No data at the selected confidence level. Tick “include confidence C” above to see secondary or unverified figures."]));
-  const W = 900, rowH = 12 * years.length + 10, H = keys.length * rowH + 20, m = {l: bySkill ? 210 : 130, r: 70, t: 6};
+  const W = 900, rowH = 12 * years.length + 10, H = keys.length * rowH + 20, m = {l: grp === "segment" ? 360 : bySkill ? 210 : 130, r: 70, t: 6};
   const vals = rows.map(r => r.value), lo = Math.min(0, ...vals) * 1.15, hi = Math.max(0, ...vals) * 1.12, x = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r);
   const unit = rows[0].unit, show = v => unit === "%" ? fmt(v) + "%" : fmt(v);
   const svg = svgEl("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": host.dataset.title});
@@ -73,13 +73,17 @@ function ranges(host) { // one bar per segment from a low to a high bound; both 
   const segs = [...new Set(lo.map(o => o.segment))].filter(sg => hi.some(h => h.segment === sg));
   const rows = [...lo, ...hi];
   if (!segs.length) return frame(host, host.dataset.title, host.dataset.sub, rows, el("p", {class: "gap"}, ["No data at the selected confidence level."]));
-  const W = 900, rowH = 26, H = segs.length * rowH + 24, m = {l: 290, r: 30, t: 6}, max = Math.max(...hi.map(o => o.value)) * 1.1, x = v => m.l + v / max * (W - m.l - m.r);
+  const unit = lo[0].unit, pct = unit === "%", W = 900, rowH = 26, H = segs.length * rowH + 24, m = {l: 300, r: pct ? 30 : 190, t: 6};
+  const max = Math.max(...hi.map(o => o.value)) * 1.08, x = v => m.l + v / max * (W - m.l - m.r);
+  const raw = max / 5, pow = Math.pow(10, Math.floor(Math.log10(raw))), step = [1, 2, 5, 10].map(k => k * pow).find(k => k >= raw);
+  const tick = v => pct ? v + "%" : v >= 1e6 ? (v / 1e6) + "m" : (v / 1e3) + "k";
   const svg = svgEl("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": host.dataset.title});
-  for (let v = 0; v <= max; v += max > 30 ? 10 : 5) svg.append(svgEl("line", {x1: x(v), x2: x(v), y1: 0, y2: H - 18, stroke: css("--line")}), svgEl("text", {x: x(v), y: H - 4, "text-anchor": "middle"}, [document.createTextNode(v + (lo[0].unit === "%" ? "%" : ""))]));
+  for (let v = 0; v <= max; v += step) svg.append(svgEl("line", {x1: x(v), x2: x(v), y1: 0, y2: H - 18, stroke: css("--line")}), svgEl("text", {x: x(v), y: H - 4, "text-anchor": "middle"}, [document.createTextNode(tick(v))]));
+  const usd = v => FX[unit] ? ` ≈ $${fmt(v * FX[unit].usd_per_unit)}` : "", lab = (a, b) => pct ? `${a.value}–${b.value}%` : `${tick(a.value)}–${tick(b.value)}${usd(a.value).replace(" ≈ $", " (≈$")}–${fmt(b.value * (FX[unit]?.usd_per_unit || 1))})`;
   segs.forEach((sg, i) => { const a = lo.find(o => o.segment === sg), b = hi.find(o => o.segment === sg), yy = m.t + i * rowH;
     svg.append(svgEl("text", {x: m.l - 8, y: yy + 14, "text-anchor": "end"}, [document.createTextNode(sg)]),
-      svgEl("rect", {x: x(a.value), y: yy + 4, width: Math.max(2, x(b.value) - x(a.value)), height: 14, fill: css(PAL[i % PAL.length])}, [Object.assign(svgEl("title"), {textContent: tip(a) + "\n---\n" + tip(b)})]),
-      svgEl("text", {x: x(b.value) + 5, y: yy + 15}, [document.createTextNode(`${a.value}–${b.value}${a.unit === "%" ? "%" : " " + a.unit}`)])); });
+      svgEl("rect", {x: x(a.value), y: yy + 4, width: Math.max(2, x(b.value) - x(a.value)), height: 14, fill: css(PAL[Math.floor(i / (host.dataset.stride || 1)) % PAL.length])}, [Object.assign(svgEl("title"), {textContent: tip(a) + "\n---\n" + tip(b)})]),
+      svgEl("text", {x: x(b.value) + 5, y: yy + 15}, [document.createTextNode(lab(a, b))])); });
   frame(host, host.dataset.title, host.dataset.sub, rows, svg);
 }
 

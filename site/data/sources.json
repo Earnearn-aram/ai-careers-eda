@@ -186,7 +186,7 @@
   "retrieved_on": "2026-10-12",
   "tier": "primary",
   "status": "fetched",
-  "notes": "robertwalters.co.th reachable (robots.txt permits editorial pages). Read: salary-survey page (survey is gated: request form), Tech & Transformation guide (22 Dec 2025) and Country Overview (30 Dec 2025). Pages are qualitative plus pay-increment ranges; no salary tables. The 'over 67%' skills-shortage figure is not on these pages and stays unverified."
+  "notes": "Public pages read (hiring guides; robots permit). Salary-calculator results for Bangkok / Tech & Transformation / AI / AI Engineer printed to PDF by the project owner on 2026-10-12 13:38 UTC and added to the repo (data/raw/rw_survey/). Shows 10 of 82 entries for the filter (10 captured, incl. the 4 AI-group roles), 2025 and 2026 annual base ranges, plus survey headline stats. Figures are basic salaries excluding benefits and bonuses. The full survey remains form-gated. The 'over 67%' skills-shortage figure is not on these pages and stays unverified."
  },
  {
   "id": "michaelpage_th",
