@@ -13,7 +13,8 @@ An exploratory, neutral, source-traceable look at how AI-related careers changed
 | Entry level (Stanford DEL, ADP payroll, US only) | From the Aug 2026 paper; confidence B |
 | Pay: Levels.fyi, US/DE/SG roles, Thailand generic Software Engineer | `.md` routes; confidence B (C where region was inferred, see overview) |
 | FX | ECB reference rates dated 2026-10-09 |
-| Not reachable | Indeed Hiring Lab articles (blocked redirect host), BLS (403), JobsDB (403), Wayback |
+| Indeed Hiring Lab articles (6 read: seniority, AI-titled roles, software postings, advertised pay; US, Europe for titles only) | Fetched from `hiringlab.indeed.com` (crawl-delay respected); confidence A |
+| Not reachable | BLS (403), JobsDB (403), Wayback |
 | Thai role-level pay and demand | Unverified seed values only (confidence C); JobsDB snapshot log is empty |
 | Role pages | Pay where data exists; other lenses state "no data collected" |
 

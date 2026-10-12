@@ -6,7 +6,7 @@
   "retrieved_on": "2026-10-12",
   "tier": "primary",
   "status": "fetched",
-  "notes": "AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0."
+  "notes": "AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0. Series is revised between vintages (Jan 2026 article: 4.2% high for Dec 2025; Oct 2026 CSV: 4.44% on 31 Dec 2025)."
  },
  {
   "id": "stanford_ai_index_2026",
@@ -46,12 +46,12 @@
  },
  {
   "id": "indeed_hiringlab_articles",
-  "name": "Indeed Hiring Lab articles (8 Jul 2026 software dev)",
-  "url": "https://www.hiringlab.org/",
-  "retrieved_on": null,
+  "name": "Indeed Hiring Lab articles (Jan-Sep 2026)",
+  "url": "https://hiringlab.indeed.com/",
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "www.hiringlab.org redirects to hiringlab.indeed.com, which the egress proxy blocks. Add that host to Allowed domains."
+  "status": "fetched",
+  "notes": "www.hiringlab.org redirects to hiringlab.indeed.com. robots.txt allows crawling with Crawl-delay 10 (followed). Read in full: 8 Jul 2026 x2, 23 Jul 2026 x2, 22 Jan 2026, 17 Sep 2026. US-centric; Europe only in the AI-titles article; no Thailand/Singapore. Raw HTML not committed; see MANIFEST.csv."
  },
  {
   "id": "stanford_del_canaries",

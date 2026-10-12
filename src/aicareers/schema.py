@@ -46,11 +46,12 @@ class Observation(BaseModel):
     notes: str = ""
     reported_via: str | None = None  # set when the primary page was not reached
     skill: str | None = None  # for skill-demand metrics
+    segment: str | None = None  # e.g. seniority level or occupation exposure group
 
     @field_validator("period")
     @classmethod
     def _period(cls, v: str) -> str:
-        if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", v):
+        if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?|-Q[1-4])?", v):
             raise ValueError(f"bad period {v!r}")
         return v
 

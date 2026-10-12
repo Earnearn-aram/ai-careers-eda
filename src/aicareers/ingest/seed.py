@@ -29,10 +29,6 @@ def _pay(id, role, region, value, unit, src, defn, **kw):
 def load() -> list[Observation]:
     A26, A25 = "stanford_ai_index_2026", "stanford_ai_index_2025"
     o = [
-        _o("ix-sw-senior-71", "share_of_posting_increase", "US", "2026-07", 71.0, "%", "indeed_hiringlab_articles",
-           "Share of the May 2025 to May 2026 increase in US software-dev postings from senior roles.", role="Software (context)"),
-        _o("ix-sw-ai-37", "share_of_posting_increase", "US", "2026-07", 37.0, "%", "indeed_hiringlab_articles",
-           "Share of the same increase from AI-titled roles. Overlaps with senior share; the two do not sum.", role="Software (context)"),
         _o("th-talent-51", "org_share_cites_talent_shortage", "TH", "2026-05", 51.0, "%", "aws_summit_bkk_2026", "Share of organisations citing talent shortage as top barrier to AI adoption (AWS Summit Bangkok, May 2026). Employer survey, context only."),
         _o("th-ai-grads", "ai_graduates_per_year", "TH", "2026", 1500.0, "count", "plan_seed_2026_10_12", "Approximate AI graduates per year in Thailand.", is_estimate=True, notes="Origin unverified."),
         _o("th-invest-79", "org_share_plan_ai_invest_up_50", "TH", "2026", 79.0, "%", "alibaba_nielseniq_apac", "Share of Thai enterprises planning to raise AI investment by 50% or more (Alibaba Cloud / NielsenIQ). Survey, context only."),

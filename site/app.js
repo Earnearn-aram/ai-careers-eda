@@ -49,19 +49,21 @@ function timeseries(host) {
 }
 
 function bars(host) { // grouped horizontal bars: one row per region (or skill), one bar per period; gaps stay visible
-  const metric = host.dataset.metric, bySkill = host.dataset.group === "skill";
-  const rows = OBS.filter(o => o.metric === metric && vis(o)), key = o => bySkill ? o.skill : o.region, lab = k => bySkill ? k : rn(k);
+  const metric = host.dataset.metric, grp = host.dataset.group, bySkill = grp === "skill" || grp === "segment";
+  const rows = OBS.filter(o => o.metric === metric && vis(o)), key = o => grp === "segment" ? o.segment : bySkill ? o.skill : o.region, lab = k => bySkill ? k : rn(k);
   const keys = [...new Set(rows.map(key))].sort((a, b) => bySkill ? Math.max(...rows.filter(r => key(r) === b).map(r => r.value)) - Math.max(...rows.filter(r => key(r) === a).map(r => r.value)) : lab(a).localeCompare(lab(b)));
   const years = [...new Set(rows.map(r => r.period))].sort();
   if (!rows.length) return frame(host, host.dataset.title, host.dataset.sub, rows, el("p", {class: "gap"}, ["No data at the selected confidence level. Tick “include confidence C” above to see secondary or unverified figures."]));
   const W = 900, rowH = 12 * years.length + 10, H = keys.length * rowH + 20, m = {l: bySkill ? 210 : 130, r: 70, t: 6};
-  const max = Math.max(...rows.map(r => r.value)) * 1.12, x = v => m.l + v / max * (W - m.l - m.r);
+  const vals = rows.map(r => r.value), lo = Math.min(0, ...vals) * 1.15, hi = Math.max(0, ...vals) * 1.12, x = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r);
   const unit = rows[0].unit, show = v => unit === "%" ? fmt(v) + "%" : fmt(v);
   const svg = svgEl("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": host.dataset.title});
   keys.forEach((k, i) => { const yy = m.t + i * rowH; svg.append(svgEl("text", {x: m.l - 8, y: yy + rowH / 2 + 2, "text-anchor": "end"}, [document.createTextNode(lab(k))]));
     years.forEach((yr, j) => { const o = rows.find(r => key(r) === k && r.period === yr); if (!o) return; const h = 10, y0 = yy + j * 12;
-      svg.append(svgEl("rect", {x: m.l, y: y0, width: Math.max(1, x(o.value) - m.l), height: h, fill: css(PAL[j % PAL.length])}, [Object.assign(svgEl("title"), {textContent: tip(o)})]),
-        svgEl("text", {x: x(o.value) + 4, y: y0 + 9}, [document.createTextNode(show(o.value) + (o.is_estimate ? " ≈" : ""))])); }); });
+      const neg = o.value < 0, x0 = x(0), x1 = x(o.value);
+      svg.append(svgEl("rect", {x: Math.min(x0, x1), y: y0, width: Math.max(1, Math.abs(x1 - x0)), height: h, fill: css(PAL[j % PAL.length])}, [Object.assign(svgEl("title"), {textContent: tip(o)})]),
+        svgEl("text", {x: neg ? x1 - 4 : x1 + 4, y: y0 + 9, "text-anchor": neg ? "end" : "start"}, [document.createTextNode(show(o.value) + (o.is_estimate ? " ≈" : ""))])); }); });
+  if (lo < 0) svg.append(svgEl("line", {x1: x(0), x2: x(0), y1: 0, y2: H - 14, stroke: css("--mut"), "stroke-width": 1}));
   const lg = el("div", {class: "legend"}); years.forEach((yr, j) => lg.append(el("span", {}, [el("i", {style: `background:${css(PAL[j % PAL.length])}`}), yr])));
   frame(host, host.dataset.title, host.dataset.sub, rows, svg, lg);
 }
