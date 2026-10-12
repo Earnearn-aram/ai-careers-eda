@@ -68,8 +68,23 @@ function bars(host) { // grouped horizontal bars: one row per region (or skill),
   frame(host, host.dataset.title, host.dataset.sub, rows, svg, lg);
 }
 
+function ranges(host) { // one bar per segment from a low to a high bound; both bounds are separate observations
+  const lo = OBS.filter(o => o.metric === host.dataset.metricLo && vis(o)), hi = OBS.filter(o => o.metric === host.dataset.metricHi && vis(o));
+  const segs = [...new Set(lo.map(o => o.segment))].filter(sg => hi.some(h => h.segment === sg));
+  const rows = [...lo, ...hi];
+  if (!segs.length) return frame(host, host.dataset.title, host.dataset.sub, rows, el("p", {class: "gap"}, ["No data at the selected confidence level."]));
+  const W = 900, rowH = 26, H = segs.length * rowH + 24, m = {l: 290, r: 30, t: 6}, max = Math.max(...hi.map(o => o.value)) * 1.1, x = v => m.l + v / max * (W - m.l - m.r);
+  const svg = svgEl("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": host.dataset.title});
+  for (let v = 0; v <= max; v += max > 30 ? 10 : 5) svg.append(svgEl("line", {x1: x(v), x2: x(v), y1: 0, y2: H - 18, stroke: css("--line")}), svgEl("text", {x: x(v), y: H - 4, "text-anchor": "middle"}, [document.createTextNode(v + (lo[0].unit === "%" ? "%" : ""))]));
+  segs.forEach((sg, i) => { const a = lo.find(o => o.segment === sg), b = hi.find(o => o.segment === sg), yy = m.t + i * rowH;
+    svg.append(svgEl("text", {x: m.l - 8, y: yy + 14, "text-anchor": "end"}, [document.createTextNode(sg)]),
+      svgEl("rect", {x: x(a.value), y: yy + 4, width: Math.max(2, x(b.value) - x(a.value)), height: 14, fill: css(PAL[i % PAL.length])}, [Object.assign(svgEl("title"), {textContent: tip(a) + "\n---\n" + tip(b)})]),
+      svgEl("text", {x: x(b.value) + 5, y: yy + 15}, [document.createTextNode(`${a.value}–${b.value}${a.unit === "%" ? "%" : " " + a.unit}`)])); });
+  frame(host, host.dataset.title, host.dataset.sub, rows, svg);
+}
+
 function pay(host) { // one row per role+region+source; local currency first, USD beside it at the stated ECB rate; never merged across sources
-  const role = host.dataset.role, all = OBS.filter(o => o.metric.startsWith("salary") && vis(o) && (!role || o.role === role));
+  const role = host.dataset.role, reg = host.dataset.region, all = OBS.filter(o => o.metric.startsWith("salary") && vis(o) && (!role || o.role === role) && (!reg || o.region === reg));
   const sib = (o, m) => all.find(r => r.metric === m && r.role === o.role && r.region === o.region && r.source_id === o.source_id && r.unit === o.unit);
   const rows = all.filter(o => o.metric !== "salary_p25_total" && o.metric !== "salary_p75_total" && o.metric !== "salary_p90_total");
   if (!rows.length) return frame(host, host.dataset.title, host.dataset.sub, all, el("p", {class: "gap"}, ["No pay observations at the selected confidence level."]));
@@ -87,7 +102,7 @@ function sources(host) {
     el("tbody", {}, Object.values(SRC).map(s => el("tr", {}, [s.id, el("a", {href: s.url}, [s.name]), s.tier, s.status, s.retrieved_on || "not retrieved", s.notes].map(v => el("td", {}, [v])))))]));
 }
 
-const KINDS = {timeseries, bars, pay, sources};
+const KINDS = {timeseries, bars, ranges, pay, sources};
 async function render() { document.querySelectorAll("[data-chart]").forEach(h => KINDS[h.dataset.chart](h)); }
 (async () => {
   try { [OBS, SRC, FX] = await Promise.all([fetch(BASE + "data/observations.json").then(r => r.json()), fetch(BASE + "data/sources.json").then(r => r.json()).then(a => Object.fromEntries(a.map(s => [s.id, s]))), fetch(BASE + "data/fx.json").then(r => r.json()).catch(() => ({}))]); }

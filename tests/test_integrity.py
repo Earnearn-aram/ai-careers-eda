@@ -135,8 +135,13 @@ def test_manual_rows_reference_known_sources(obs):
     assert all(o.source_id in ids for o in obs)
 
 
-def test_thai_unverified_figures_are_confidence_c_and_not_plotted_with_others(obs):
+def test_thai_rows_split_cleanly_between_read_pages_and_search_summaries(obs):
     th_src = {"robert_walters_th_2026", "michaelpage_th", "depa_digital_survey_2025", "tdri_ai_labour_2025"}
     rows = [o for o in obs if o.source_id in th_src]
-    assert rows and all(o.confidence == Confidence.C and o.reported_via for o in rows)
+    assert rows
+    for o in rows:
+        if o.reported_via:  # seen only in a search summary: unverified
+            assert o.confidence == Confidence.C, o.id
+        else:  # read on the page: must name it
+            assert o.notes.count("http") >= 1, o.id
     assert "ai_posting_share_tdri" not in {o.metric for o in obs if o.metric in ("ai_skill_share", "ai_keyword_share")}

@@ -182,20 +182,20 @@
  {
   "id": "robert_walters_th_2026",
   "name": "Robert Walters Thailand salary survey / hiring guides 2026",
-  "url": "https://www.robertwalters.co.th/salarysurvey.html",
-  "retrieved_on": null,
+  "url": "https://www.robertwalters.co.th/our-services/salary-survey.html",
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "Host blocked. Survey is gated (request form). 'Over 67%' skills-shortage figure seen only via The Story Thailand (search summary, page not fetched)."
+  "status": "fetched",
+  "notes": "robertwalters.co.th reachable (robots.txt permits editorial pages). Read: salary-survey page (survey is gated: request form), Tech & Transformation guide (22 Dec 2025) and Country Overview (30 Dec 2025). Pages are qualitative plus pay-increment ranges; no salary tables. The 'over 67%' skills-shortage figure is not on these pages and stays unverified."
  },
  {
   "id": "michaelpage_th",
   "name": "Michael Page Thailand (salary guide, job listings)",
   "url": "https://www.michaelpage.co.th/",
-  "retrieved_on": null,
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "Host blocked. Salary guide is a free download. One advertised Senior ML Engineer listing seen via search summary only."
+  "status": "fetched",
+  "notes": "michaelpage.co.th reachable. Read: 'Highest-paying jobs in Thailand: Top 10 in 2026' (based on its 2026 Salary Guide, monthly higher-range salaries). Salary guide itself is a form-gated download. The ML Engineer listing seen via search no longer exists (jobs/machine-learning returns no results on 2026-10-12)."
  },
  {
   "id": "monroe_th_2026",
@@ -222,7 +222,7 @@
   "retrieved_on": null,
   "tier": "secondary",
   "status": "unreachable",
-  "notes": "Figures seen via search summary of the Thairath article (release date 8 Sep 2026 per that summary, not confirmed on DEPA's site). Find the DEPA report itself."
+  "notes": "Figures seen via search summary of the Thairath article (release date 8 Sep 2026 per that summary, not confirmed on DEPA's site). Find the DEPA report itself. depa.or.th is reachable; its service-statistics/survey-report page is the satisfaction survey, not the workforce survey. DEPA workforce report not located."
  },
  {
   "id": "tdri_ai_labour_2025",

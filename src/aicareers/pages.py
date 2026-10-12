@@ -19,7 +19,7 @@ BANNER = '<div class="banner"><strong>Exploratory.</strong> Not financial or car
 
 def shell(title: str, body: str, depth: int = 0) -> str:
     up = "../" * depth
-    nav = "".join(f'<a href="{up}{h}">{t}</a>' for h, t in [("index.html", "Overview"), ("compare.html", "Thailand vs world"), ("index.html#roles", "Roles"), ("index.html#limits", "Method and limits"), ("index.html#sources", "Sources")])
+    nav = "".join(f'<a href="{up}{h}">{t}</a>' for h, t in [("index.html", "Overview"), ("thailand.html", "Thailand (limited evidence)"), ("index.html#roles", "Roles"), ("index.html#limits", "Method and limits"), ("index.html#sources", "Sources")])
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} | AI careers EDA</title><link rel="stylesheet" href="{up}style.css"></head><body>
 <header><nav>{nav}</nav>{BANNER}<label class="ctl"><input type="checkbox" id="incl-c"> include confidence C (secondary or unverified) figures</label></header>
@@ -45,8 +45,8 @@ def indeed_summary(obs: list[Observation]) -> str:
 def index(obs: list[Observation]) -> str:
     table, last = indeed_summary(obs)
     roles = "".join(f'<li><a href="roles/{s}.html">{escape(n)}</a></li>' for s, n in ROLES)
-    return shell("Overview", f'''<h1>AI-related careers, late 2023 to Oct 2026</h1>
-<p>An exploratory, source-traceable look at how AI-related careers changed, comparing Thailand with the US, Europe and Singapore/APAC. It starts from no hypothesis and reports what each source says, including where sources disagree or where there is no data.</p>
+    return shell("Overview", f'''<h1>AI-related careers, late 2023 to Oct 2026: a global view</h1>
+<p>An exploratory, source-traceable look at how AI-related careers changed, mainly in the US and Europe, with Singapore and Hong Kong as APAC context. It starts from no hypothesis and reports what each source says, including where sources disagree or where there is no data. <strong>Thailand has its own page</strong> because the usable Thai evidence is thin: no Thai series exists in the open datasets used here, and the Thai pay and demand figures are mostly recruiter statements or unverified. The <a href="thailand.html">Thailand page</a> shows what exists and what is missing.</p>
 <h2>Demand: Indeed AI keyword share</h2>
 <p>The share of Indeed job postings whose text contains AI keywords (for example "Machine Learning", "Data Science", "Artificial Intelligence"). It covers nine countries. <strong>Thailand, Singapore and other APAC markets are not in the dataset.</strong> A keyword match does not mean the job requires AI skills, and it counts relabelled titles as well as new demand.</p>
 {chart("timeseries", metric="ai_keyword_share", regions="US,GB,DE,FR,NL,IE,IT,AU,CA", title="Indeed: share of job postings with AI keywords, monthly mean of daily values", sub="Unit: % of postings. Oct 2023 to Sep 2026. Source: Indeed Hiring Lab AI Tracker (CC BY 4.0).", name="indeed_ai_keyword_share")}
@@ -58,7 +58,7 @@ def index(obs: list[Observation]) -> str:
 <h2>Requirements and skills (US, Lightcast)</h2>
 <p>Counts of US AI-skill postings that list each skill, 2024 vs 2025 (a posting can list several skills). The AI Index notes that generative AI mentions grew 111% while their share of AI postings fell 5%, and that the share of AI postings mentioning ChatGPT, chatbot or conversational AI declined while agent-related and orchestration terms (for example LangGraph) rose. The "280%+" figure in the Lightcast blog is the agentic cluster's share of <em>all</em> US postings (0.06% to 0.23%); the larger percentages seen elsewhere describe single skills such as "Agentic AI" (151 to 16,541 postings). Only 2024 and 2025 are available; there is no 2023 skill baseline in the sources read so far.</p>
 {chart("bars", metric="ai_skill_postings_count", group="skill", title="US AI job postings listing each skill, 2024 vs 2025", sub="Unit: postings (count). Lightcast via AI Index 2026, section 4.4.", name="us_ai_skill_counts")}
-<h2>Pay</h2>
+<h2 id="pay">Pay</h2>
 <p>Pay figures are self-reported (Levels.fyi, verified in tiers but skewed towards big tech), recruiter-estimated, or modelled. Sources are shown side by side and never merged. Local currency comes first; USD uses the ECB reference rate of 9 Oct 2026. Percentile ranges are shown where the source gives them, because one median hides a wide spread (for the US AI Engineer page, p25 to p75 spans $109,500 to $211,250). Rows with confidence C are hidden by default. There is no 2023 to 2026 pay trend in the data collected.</p>
 {chart("pay", title="Pay observations by source (annual total compensation unless the definition says otherwise)", sub="2026 cross-section only. Each row names its source, definition, n and confidence.", name="pay_all")}
 <h2 id="entry">Entry level vs senior</h2>
@@ -98,23 +98,27 @@ def index(obs: list[Observation]) -> str:
 <h2 id="sources">Source list</h2>{chart("sources")}''')
 
 
-def compare(obs: list[Observation]) -> str:
-    return shell("Thailand vs world", f'''<h1>Thailand vs the world</h1>
-<p>Thailand evidence is thin. This page shows what exists and states plainly what does not.</p>
+def thailand(obs: list[Observation]) -> str:
+    return shell("Thailand vs world", f'''<h1>Thailand: what the evidence shows (limited)</h1>
+<p>Thai evidence is thin, so this page does not try to compare Thailand with the world quantitatively. It lists what exists, labels recruiter statements as statements, and says what is missing. For global patterns see the <a href="index.html">overview</a>.</p>
 <h2>Demand</h2>
 <ul><li><strong>Indeed AI Tracker:</strong> no Thailand series (covered: AU, CA, DE, FR, GB, IE, IT, NL, US).</li>
 <li><strong>Lightcast / AI Index share with an AI skill:</strong> Thailand is not among the 22 economies covered. Singapore and Hong Kong are the nearest APAC comparators.</li>
 <li><strong>JobsDB Thailand counts:</strong> search counts depend on the query text and date, and queries like "AI" mix in trainers and sales roles. The site returned 403 to the build environment, and earlier counts were not recorded with an exact query and date, so none are entered. <code>data/processed/thailand_jobsdb_snapshots.csv</code> and <code>aicareers-log-snapshot</code> let a like-for-like series accumulate from now on. No trend can be drawn today.</li></ul>
-{chart("bars", metric="ai_skill_share", title="Lightcast: share of job postings with at least one AI skill", sub="Unit: %. Thailand absent from the dataset.", name="compare_lightcast")}
+<p>The Lightcast chart of 22 economies on the <a href="index.html">overview</a> is the nearest comparison for APAC (Singapore and Hong Kong); it has no Thailand series.</p>
 <h2>Pay (local currency first; USD at the stated ECB rate)</h2>
-<p>The only verified Thai pay figure is for the generic <em>Software Engineer</em> role on Levels.fyi, shown as context. Role-specific Thai figures (AI, data) are unverified, from earlier notes, and shown only when confidence C is included. Levels.fyi Thai medians depend on a self-selected sample.</p>
-{chart("pay", title="Pay observations, all regions", sub="Compare within a role and source first; sources differ in definition and sample.", name="compare_pay")}
+<p>Two verified Thai pay points exist, both context rather than AI or data roles: the generic <em>Software Engineer</em> median on Levels.fyi (self-reported, n shown) and the top of Michael Page's monthly range for <em>Solution Architect</em> (monthly, from its 2026 guide). Role-specific Thai figures for AI and data roles are unverified and appear only when confidence C is included. For other regions see the <a href="index.html#pay">overview</a>.</p>
+{chart("pay", region="TH", title="Thailand: pay observations by source", sub="Annual total compensation (Levels.fyi) and monthly figures (recruiters) are different definitions; read the definition column.", name="th_pay")}
+<h2>What Thai recruiters say (statements, not measurements)</h2>
+<p><strong>Robert Walters Thailand</strong> (hiring guides of 22 and 30 Dec 2025; the pay data sits in a salary survey that requires a request form) says hiring slowed in 2025, with companies scaling back mid-level hiring to favour senior candidates, and expects AI/ML engineers to be among the roles with the biggest demand in 2026. It names manual QA testers, level-1 support, data-entry operators and junior developers as the roles most exposed to AI because their tasks are repetitive, and expects entry-level salaries to be stable while mid- to senior-level raises are larger. A consultant is quoted on 280,000 new jobs across smart electronics, electric vehicles and semiconductors, with no source given and not specific to AI. <strong>Michael Page Thailand</strong> says unemployment is under 1% and candidates have strong bargaining power; no AI, data or ML role appears in its 2026 top-10 highest-paying list (the only technology role is Solution Architect). These are recruiters' views and expectations from commercial firms that earn fees from placements, not samples of workers or postings.</p>
+{chart("ranges", metric_lo="pay_increment_pct_low", metric_hi="pay_increment_pct_high", title="Thailand: expected salary increment when changing jobs, 2026", sub="Unit: % increase. Ranges stated by two recruiters (indicative, not survey samples).", name="th_increments")}
 <h2>Where Thai figures may come from (leads, not yet read)</h2>
 <p>These sources were found through search summaries only. Their hosts are blocked from the build environment, or the survey is gated behind a request form. Nothing from them is shown unless a person has read the page or file and entered the figure with its definition (see <code>docs/THAILAND_COLLECTION.md</code>). Any figures already recorded from them are confidence C and hidden by default.</p>
 <table><thead><tr><th>Source</th><th>Would add</th><th>Status</th></tr></thead><tbody>
-<tr><td>Robert Walters Thailand salary survey 2026 (and 2024, 2025 editions)</td><td>Monthly pay bands for data and AI roles; a pay trend if earlier editions are obtained</td><td>Gated (free request form)</td></tr>
-<tr><td>Michael Page, Hays, Adecco, Monroe Consulting Thailand guides</td><td>Same roles from a second and third recruiter, to show disagreement</td><td>Hosts blocked; downloads are free</td></tr>
-<tr><td>DEPA digital industry workforce survey 2025</td><td>Demand vs graduates by sector; skills mismatch in AI and data analytics</td><td>Seen via news coverage only</td></tr>
+<tr><td>Robert Walters Thailand salary survey 2026 (and 2024, 2025 editions)</td><td>Monthly pay bands for data and AI roles; a pay trend if earlier editions are obtained</td><td>Hiring guides read (above); the survey itself is gated (free request form)</td></tr>
+<tr><td>Michael Page Thailand salary guide</td><td>Same roles from a second recruiter, to show disagreement</td><td>Top-10 page read (above); the guide is a form-gated download</td></tr>
+<tr><td>Hays, Adecco, Monroe Consulting Thailand guides</td><td>A third and fourth recruiter</td><td>Hosts blocked; downloads are free</td></tr>
+<tr><td>DEPA digital industry workforce survey 2025</td><td>Demand vs graduates by sector; skills mismatch in AI and data analytics</td><td>Seen via news coverage only; depa.or.th is reachable but the report was not located</td></tr>
 <tr><td>TDRI 2025 AI labour market report</td><td>Thai AI posting growth. Its definition and base are unknown, so it is not comparable with Indeed or Lightcast</td><td>Seen via an undated government page only</td></tr>
 <tr><td>Levels.fyi role pages for Thailand</td><td>Role-level medians, percentiles and n</td><td>Not served on the agent-friendly route</td></tr>
 <tr><td>JobsDB Thailand search counts</td><td>A like-for-like series if logged with fixed queries</td><td>Pages return 403 to automated requests; counts must be read by hand</td></tr>
@@ -141,6 +145,6 @@ def role(slug: str, name: str, obs: list[Observation]) -> str:
 def write_all(obs: list[Observation], site: Path) -> None:
     (site / "roles").mkdir(exist_ok=True)
     (site / "index.html").write_text(index(obs))
-    (site / "compare.html").write_text(compare(obs))
+    (site / "thailand.html").write_text(thailand(obs))
     for s, n in ROLES:
         (site / "roles" / f"{s}.html").write_text(role(s, n, obs))

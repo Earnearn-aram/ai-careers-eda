@@ -42,6 +42,28 @@ def load() -> list[Observation]:
           _o("del-reg-2025-07", "employment_decline_age22_25_regression", "US", "2025-07", 13.0, "%", D, "Earlier headline regression estimate (adjusting for firm-level shocks), relative decline for 22-25 year-olds in exposed occupations.", conf=Confidence.B, notes="Superseded as the headline; different method from the shortfall metric."),
           _o("del-reg-2025-09", "employment_decline_age22_25_regression", "US", "2025-09", 16.0, "%", D, "Same regression estimate, September 2025 data.", conf=Confidence.B)]
     o += _hiringlab()
+    o += _thailand_recruiters()
+    return o
+
+
+def _th(id, metric, period, value, unit, src, defn, url, who, role="all", **kw):
+    return _o(id, metric, "TH", period, value, unit, src, defn, conf=Confidence.B, role=role, is_estimate=kw.pop("approx", True),
+              notes=f"{who}. {url}. Recruiter statement, indicative, not a survey sample. " + kw.pop("notes", ""), **kw)
+
+
+def _thailand_recruiters() -> list[Observation]:
+    RW = "robert_walters_th_2026"
+    CO = "https://www.robertwalters.co.th/insights/hiring-advice/blog/country-overview-hiring-guide-and-trends-2026.html"
+    MP = "michaelpage_th"
+    MPU = "https://www.michaelpage.co.th/advice/career-advice/salary-and-negotiation/highest-paying-jobs-thailand"
+    inc = "Expected salary increment for people changing jobs in Thailand in 2026 (percentage points of pay), %s: %s end of the stated range."
+    o = []
+    for seg, lo, hi in (("In-demand skills, 'plug-and-play' movers", 15, 20), ("Hired on potential or lateral moves", 10, 15), ("Staying in the same role", 2, 4)):
+        o.append(_th(f"th-rw-inc-{seg[:6].lower().replace(' ', '').replace(chr(39), '').replace(',', '')}-lo", "pay_increment_pct_low", "2026", float(lo), "%", RW, inc % (seg, "low"), CO, "Robert Walters Thailand, Country Overview (30 Dec 2025)", segment=seg, approx=False))
+        o.append(_th(f"th-rw-inc-{seg[:6].lower().replace(' ', '').replace(chr(39), '').replace(',', '')}-hi", "pay_increment_pct_high", "2026", float(hi), "%", RW, inc % (seg, "high"), CO, "Robert Walters Thailand, Country Overview (30 Dec 2025)", segment=seg, approx=False))
+    o.append(_th("th-mp-inc-lo", "pay_increment_pct_low", "2026", 15.0, "%", MP, "Average salary increment now (candidates changing jobs, all sectors), low end. Same page says some reach 40%.", MPU, "Michael Page Thailand, 'Highest-paying jobs in Thailand: Top 10 in 2026'", segment="Michael Page: average increment, all sectors", approx=False))
+    o.append(_th("th-mp-inc-hi", "pay_increment_pct_high", "2026", 20.0, "%", MP, "Average salary increment now (candidates changing jobs, all sectors), high end.", MPU, "Michael Page Thailand, 'Highest-paying jobs in Thailand: Top 10 in 2026'", segment="Michael Page: average increment, all sectors", approx=False))
+    o.append(_th("th-mp-solarch-hi", "salary_monthly_high_range", "2026", 250000.0, "THB", MP, "Higher end of average MONTHLY salary for Solution Architect (technology), from Michael Page's 2026 Salary Guide as listed on its Top 10 page. Only tech role in the list; no AI, data or ML role appears.", MPU, "Michael Page Thailand", role="Solution Architect (context)", approx=False))
     return o
 
 
