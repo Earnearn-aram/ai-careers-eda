@@ -45,6 +45,7 @@ class Observation(BaseModel):
     sample_size: int | None = None
     notes: str = ""
     reported_via: str | None = None  # set when the primary page was not reached
+    skill: str | None = None  # for skill-demand metrics
 
     @field_validator("period")
     @classmethod

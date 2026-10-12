@@ -29,17 +29,6 @@ def _pay(id, role, region, value, unit, src, defn, **kw):
 def load() -> list[Observation]:
     A26, A25 = "stanford_ai_index_2026", "stanford_ai_index_2025"
     o = [
-        _o("lc-US-2025", "ai_skill_share", "US", "2025", 2.5, "%", A26, LC_DEF, via="Lightcast blog summary (search result, page not read)"),
-        _o("lc-US-2024", "ai_skill_share", "US", "2024", 1.8, "%", A25, LC_DEF),
-        _o("lc-SG-2024", "ai_skill_share", "SG", "2024", 3.2, "%", A25, LC_DEF),
-        _o("lc-SG-2025", "ai_skill_share", "SG", "2025", 5.0, "%", A26, LC_DEF, is_estimate=True, notes='Reported as "nearly 5%"/"near 5%"; value is approximate.'),
-        _o("lc-LU-2024", "ai_skill_share", "LU", "2024", 2.0, "%", A25, LC_DEF),
-        _o("lc-HK-2024", "ai_skill_share", "HK", "2024", 1.9, "%", A25, LC_DEF),
-        *[_o(f"lc-{c}-eu", "ai_skill_share", c, "2025", v, "%", A26, LC_DEF, notes="Reference year not confirmed (assumed 2025). Reported by secondary sites.")
-          for c, v in [("CH", 1.59), ("DE", 1.13), ("FR", 0.99), ("AT", 0.84)]],
-        _o("dc-canaries-19", "employment_gap_age22_25", "US", "2026-08", -19.0, "%", "stanford_del_canaries",
-           "Relative employment of 22-25 year-olds in highly AI-exposed occupations vs less-exposed peers (ADP payroll data). Descriptive, not causal.",
-           notes="Prior-year figure reported as 13% or 15% by different sources; unresolved."),
         _o("ix-sw-senior-71", "share_of_posting_increase", "US", "2026-07", 71.0, "%", "indeed_hiringlab_articles",
            "Share of the May 2025 to May 2026 increase in US software-dev postings from senior roles.", role="Software (context)"),
         _o("ix-sw-ai-37", "share_of_posting_increase", "US", "2026-07", 37.0, "%", "indeed_hiringlab_articles",
@@ -48,10 +37,6 @@ def load() -> list[Observation]:
         _o("th-ai-grads", "ai_graduates_per_year", "TH", "2026", 1500.0, "count", "plan_seed_2026_10_12", "Approximate AI graduates per year in Thailand.", is_estimate=True, notes="Origin unverified."),
         _o("th-invest-79", "org_share_plan_ai_invest_up_50", "TH", "2026", 79.0, "%", "alibaba_nielseniq_apac", "Share of Thai enterprises planning to raise AI investment by 50% or more (Alibaba Cloud / NielsenIQ). Survey, context only."),
         # Pay. Local currency as reported; no USD conversion until an FX source is retrieved.
-        _pay("lv-ai-US", "AI / LLM Engineer", "US", 151000, "USD", "levels_fyi", "Median total comp (base+bonus+equity), self-reported.",
-             notes="Levels.fyi page 'updated 10 Oct 2026'. Other aggregators report $159,430 to $245k; spread is itself a finding."),
-        _pay("lv-ml-US", "Machine Learning Engineer", "US", 279000, "USD", "levels_fyi", "Median total comp, self-reported.", is_estimate=True,
-             notes="Reported range $278k-$280k. Big-tech skew."),
         _pay("lv-ai-TH", "AI / LLM Engineer", "TH", 874323, "THB", "levels_fyi", "Median total comp, self-reported.", notes="Sample size not recorded."),
         _pay("eri-ai-TH", "AI / LLM Engineer", "TH", 1167539, "THB", "eri_salaryexpert", "Average base salary, model estimate.", is_estimate=True),
         _pay("lv-ds-TH", "Data Scientist", "TH", 1176555, "THB", "levels_fyi", "Median total comp, self-reported.", sample_size=13,

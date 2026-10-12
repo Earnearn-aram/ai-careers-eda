@@ -41,8 +41,45 @@ def test_one_unit_and_definition_family_per_metric(obs):
 
 
 def test_indeed_and_lightcast_not_same_metric(obs):
-    m = {o.source_id: o.metric for o in obs if o.source_id in ("indeed_ai_tracker", "stanford_ai_index_2026")}
-    assert m["indeed_ai_tracker"] != m["stanford_ai_index_2026"]
+    m = {o.source_id: o.metric for o in obs if o.source_id in ("indeed_ai_tracker", "owid_lightcast_ai_index_2026")}
+    assert m["indeed_ai_tracker"] != m["owid_lightcast_ai_index_2026"]
+
+
+def test_lightcast_values_are_single_edition(obs):
+    """Lightcast shares must all come from one AI Index edition (skill list changes yearly)."""
+    srcs = {o.source_id for o in obs if o.metric == "ai_skill_share"}
+    assert srcs == {"owid_lightcast_ai_index_2026"}
+
+
+def test_thailand_not_invented_in_lightcast_or_indeed(obs):
+    for o in obs:
+        if o.metric in ("ai_skill_share", "ai_keyword_share"):
+            assert o.region != "TH"
+
+
+def test_owid_matches_ai_index_figure_labels(obs):
+    """AI Index 2026 Figure 4.4.2 labels (2025) as read from the report PDF text."""
+    fig = {"AU": 1.78, "CH": 1.59, "MX": 1.38, "BE": 1.36, "IT": 1.33, "DE": 1.13, "NL": 1.04, "FR": 0.99, "AT": 0.84, "NZ": 0.81, "HR": 0.38}
+    got = {o.region: o.value for o in obs if o.metric == "ai_skill_share" and o.period == "2025"}
+    for c, v in fig.items():
+        assert abs(got[c] - v) < 0.006, c
+
+
+def test_levels_us_ai_engineer_page_values(obs):
+    o = {x.id: x for x in obs}
+    assert o["levels-aillmengineer-US-median"].value == 151000 and o["levels-aillmengineer-US-median"].sample_size == 331
+
+
+def test_levels_inferred_region_is_confidence_c(obs):
+    for o in obs:
+        if o.source_id == "levels_fyi" and "requested URL" in o.notes:
+            assert o.confidence == Confidence.C
+
+
+def test_fx_rates_have_date_and_source():
+    from aicareers.fx import from_ecb_xml
+    r = from_ecb_xml(ROOT / "data" / "raw" / "ecb" / "eurofxref-daily.xml")
+    assert r["USD"].usd_per_unit == 1.0 and r["THB"].usd_per_unit < 0.05 and all(x.as_of and x.source_url for x in r.values())
 
 
 def test_no_interpolated_months(obs):

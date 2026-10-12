@@ -14,7 +14,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2023-11",
@@ -31,7 +32,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2023-12",
@@ -48,7 +50,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-01",
@@ -65,7 +68,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-02",
@@ -82,7 +86,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-03",
@@ -99,7 +104,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-04",
@@ -116,7 +122,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-05",
@@ -133,7 +140,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-06",
@@ -150,7 +158,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-07",
@@ -167,7 +176,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-08",
@@ -184,7 +194,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-09",
@@ -201,7 +212,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-10",
@@ -218,7 +230,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-11",
@@ -235,7 +248,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2024-12",
@@ -252,7 +266,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-01",
@@ -269,7 +284,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-02",
@@ -286,7 +302,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-03",
@@ -303,7 +320,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-04",
@@ -320,7 +338,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-05",
@@ -337,7 +356,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-06",
@@ -354,7 +374,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-07",
@@ -371,7 +392,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-08",
@@ -388,7 +410,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-09",
@@ -405,7 +428,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-10",
@@ -422,7 +446,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-11",
@@ -439,7 +464,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2025-12",
@@ -456,7 +482,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-01",
@@ -473,7 +500,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-02",
@@ -490,7 +518,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-03",
@@ -507,7 +536,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-04",
@@ -524,7 +554,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-05",
@@ -541,7 +572,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-06",
@@ -558,7 +590,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-07",
@@ -575,7 +608,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-08",
@@ -592,7 +626,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-AU-2026-09",
@@ -609,7 +644,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2023-10",
@@ -626,7 +662,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2023-11",
@@ -643,7 +680,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2023-12",
@@ -660,7 +698,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-01",
@@ -677,7 +716,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-02",
@@ -694,7 +734,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-03",
@@ -711,7 +752,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-04",
@@ -728,7 +770,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-05",
@@ -745,7 +788,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-06",
@@ -762,7 +806,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-07",
@@ -779,7 +824,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-08",
@@ -796,7 +842,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-09",
@@ -813,7 +860,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-10",
@@ -830,7 +878,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-11",
@@ -847,7 +896,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2024-12",
@@ -864,7 +914,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-01",
@@ -881,7 +932,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-02",
@@ -898,7 +950,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-03",
@@ -915,7 +968,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-04",
@@ -932,7 +986,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-05",
@@ -949,7 +1004,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-06",
@@ -966,7 +1022,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-07",
@@ -983,7 +1040,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-08",
@@ -1000,7 +1058,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-09",
@@ -1017,7 +1076,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-10",
@@ -1034,7 +1094,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-11",
@@ -1051,7 +1112,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2025-12",
@@ -1068,7 +1130,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-01",
@@ -1085,7 +1148,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-02",
@@ -1102,7 +1166,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-03",
@@ -1119,7 +1184,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-04",
@@ -1136,7 +1202,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-05",
@@ -1153,7 +1220,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-06",
@@ -1170,7 +1238,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-07",
@@ -1187,7 +1256,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-08",
@@ -1204,7 +1274,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-CA-2026-09",
@@ -1221,7 +1292,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2023-10",
@@ -1238,7 +1310,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2023-11",
@@ -1255,7 +1328,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2023-12",
@@ -1272,7 +1346,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-01",
@@ -1289,7 +1364,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-02",
@@ -1306,7 +1382,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-03",
@@ -1323,7 +1400,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-04",
@@ -1340,7 +1418,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-05",
@@ -1357,7 +1436,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-06",
@@ -1374,7 +1454,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-07",
@@ -1391,7 +1472,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-08",
@@ -1408,7 +1490,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-09",
@@ -1425,7 +1508,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-10",
@@ -1442,7 +1526,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-11",
@@ -1459,7 +1544,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2024-12",
@@ -1476,7 +1562,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-01",
@@ -1493,7 +1580,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-02",
@@ -1510,7 +1598,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-03",
@@ -1527,7 +1616,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-04",
@@ -1544,7 +1634,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-05",
@@ -1561,7 +1652,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-06",
@@ -1578,7 +1670,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-07",
@@ -1595,7 +1688,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-08",
@@ -1612,7 +1706,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-09",
@@ -1629,7 +1724,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-10",
@@ -1646,7 +1742,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-11",
@@ -1663,7 +1760,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2025-12",
@@ -1680,7 +1778,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-01",
@@ -1697,7 +1796,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-02",
@@ -1714,7 +1814,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-03",
@@ -1731,7 +1832,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-04",
@@ -1748,7 +1850,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-05",
@@ -1765,7 +1868,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-06",
@@ -1782,7 +1886,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-07",
@@ -1799,7 +1904,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-08",
@@ -1816,7 +1922,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-DE-2026-09",
@@ -1833,7 +1940,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2023-10",
@@ -1850,7 +1958,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2023-11",
@@ -1867,7 +1976,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2023-12",
@@ -1884,7 +1994,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-01",
@@ -1901,7 +2012,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-02",
@@ -1918,7 +2030,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-03",
@@ -1935,7 +2048,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-04",
@@ -1952,7 +2066,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-05",
@@ -1969,7 +2084,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-06",
@@ -1986,7 +2102,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-07",
@@ -2003,7 +2120,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-08",
@@ -2020,7 +2138,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-09",
@@ -2037,7 +2156,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-10",
@@ -2054,7 +2174,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-11",
@@ -2071,7 +2192,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2024-12",
@@ -2088,7 +2210,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-01",
@@ -2105,7 +2228,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-02",
@@ -2122,7 +2246,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-03",
@@ -2139,7 +2264,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-04",
@@ -2156,7 +2282,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-05",
@@ -2173,7 +2300,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-06",
@@ -2190,7 +2318,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-07",
@@ -2207,7 +2336,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-08",
@@ -2224,7 +2354,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-09",
@@ -2241,7 +2372,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-10",
@@ -2258,7 +2390,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-11",
@@ -2275,7 +2408,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2025-12",
@@ -2292,7 +2426,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-01",
@@ -2309,7 +2444,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-02",
@@ -2326,7 +2462,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-03",
@@ -2343,7 +2480,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-04",
@@ -2360,7 +2498,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-05",
@@ -2377,7 +2516,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-06",
@@ -2394,7 +2534,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-07",
@@ -2411,7 +2552,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-08",
@@ -2428,7 +2570,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-FR-2026-09",
@@ -2445,7 +2588,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2023-10",
@@ -2462,7 +2606,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2023-11",
@@ -2479,7 +2624,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2023-12",
@@ -2496,7 +2642,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-01",
@@ -2513,7 +2660,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-02",
@@ -2530,7 +2678,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-03",
@@ -2547,7 +2696,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-04",
@@ -2564,7 +2714,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-05",
@@ -2581,7 +2732,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-06",
@@ -2598,7 +2750,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-07",
@@ -2615,7 +2768,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-08",
@@ -2632,7 +2786,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-09",
@@ -2649,7 +2804,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-10",
@@ -2666,7 +2822,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-11",
@@ -2683,7 +2840,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2024-12",
@@ -2700,7 +2858,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-01",
@@ -2717,7 +2876,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-02",
@@ -2734,7 +2894,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-03",
@@ -2751,7 +2912,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-04",
@@ -2768,7 +2930,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-05",
@@ -2785,7 +2948,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-06",
@@ -2802,7 +2966,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-07",
@@ -2819,7 +2984,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-08",
@@ -2836,7 +3002,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-09",
@@ -2853,7 +3020,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-10",
@@ -2870,7 +3038,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-11",
@@ -2887,7 +3056,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2025-12",
@@ -2904,7 +3074,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-01",
@@ -2921,7 +3092,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-02",
@@ -2938,7 +3110,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-03",
@@ -2955,7 +3128,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-04",
@@ -2972,7 +3146,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-05",
@@ -2989,7 +3164,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-06",
@@ -3006,7 +3182,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-07",
@@ -3023,7 +3200,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-08",
@@ -3040,7 +3218,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-GB-2026-09",
@@ -3057,7 +3236,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2023-10",
@@ -3074,7 +3254,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2023-11",
@@ -3091,7 +3272,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2023-12",
@@ -3108,7 +3290,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-01",
@@ -3125,7 +3308,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-02",
@@ -3142,7 +3326,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-03",
@@ -3159,7 +3344,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-04",
@@ -3176,7 +3362,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-05",
@@ -3193,7 +3380,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-06",
@@ -3210,7 +3398,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-07",
@@ -3227,7 +3416,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-08",
@@ -3244,7 +3434,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-09",
@@ -3261,7 +3452,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-10",
@@ -3278,7 +3470,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-11",
@@ -3295,7 +3488,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2024-12",
@@ -3312,7 +3506,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-01",
@@ -3329,7 +3524,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-02",
@@ -3346,7 +3542,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-03",
@@ -3363,7 +3560,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-04",
@@ -3380,7 +3578,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-05",
@@ -3397,7 +3596,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-06",
@@ -3414,7 +3614,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-07",
@@ -3431,7 +3632,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-08",
@@ -3448,7 +3650,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-09",
@@ -3465,7 +3668,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-10",
@@ -3482,7 +3686,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-11",
@@ -3499,7 +3704,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2025-12",
@@ -3516,7 +3722,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-01",
@@ -3533,7 +3740,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-02",
@@ -3550,7 +3758,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-03",
@@ -3567,7 +3776,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-04",
@@ -3584,7 +3794,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-05",
@@ -3601,7 +3812,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-06",
@@ -3618,7 +3830,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-07",
@@ -3635,7 +3848,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-08",
@@ -3652,7 +3866,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IE-2026-09",
@@ -3669,7 +3884,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2023-10",
@@ -3686,7 +3902,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2023-11",
@@ -3703,7 +3920,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2023-12",
@@ -3720,7 +3938,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-01",
@@ -3737,7 +3956,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-02",
@@ -3754,7 +3974,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-03",
@@ -3771,7 +3992,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-04",
@@ -3788,7 +4010,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-05",
@@ -3805,7 +4028,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-06",
@@ -3822,7 +4046,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-07",
@@ -3839,7 +4064,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-08",
@@ -3856,7 +4082,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-09",
@@ -3873,7 +4100,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-10",
@@ -3890,7 +4118,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-11",
@@ -3907,7 +4136,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2024-12",
@@ -3924,7 +4154,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-01",
@@ -3941,7 +4172,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-02",
@@ -3958,7 +4190,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-03",
@@ -3975,7 +4208,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-04",
@@ -3992,7 +4226,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-05",
@@ -4009,7 +4244,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-06",
@@ -4026,7 +4262,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-07",
@@ -4043,7 +4280,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-08",
@@ -4060,7 +4298,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-09",
@@ -4077,7 +4316,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-10",
@@ -4094,7 +4334,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-11",
@@ -4111,7 +4352,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2025-12",
@@ -4128,7 +4370,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-01",
@@ -4145,7 +4388,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-02",
@@ -4162,7 +4406,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-03",
@@ -4179,7 +4424,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-04",
@@ -4196,7 +4442,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-05",
@@ -4213,7 +4460,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-06",
@@ -4230,7 +4478,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-07",
@@ -4247,7 +4496,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-08",
@@ -4264,7 +4514,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-IT-2026-09",
@@ -4281,7 +4532,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2023-10",
@@ -4298,7 +4550,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2023-11",
@@ -4315,7 +4568,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2023-12",
@@ -4332,7 +4586,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-01",
@@ -4349,7 +4604,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-02",
@@ -4366,7 +4622,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-03",
@@ -4383,7 +4640,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-04",
@@ -4400,7 +4658,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-05",
@@ -4417,7 +4676,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-06",
@@ -4434,7 +4694,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-07",
@@ -4451,7 +4712,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-08",
@@ -4468,7 +4730,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-09",
@@ -4485,7 +4748,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-10",
@@ -4502,7 +4766,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-11",
@@ -4519,7 +4784,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2024-12",
@@ -4536,7 +4802,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-01",
@@ -4553,7 +4820,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-02",
@@ -4570,7 +4838,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-03",
@@ -4587,7 +4856,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-04",
@@ -4604,7 +4874,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-05",
@@ -4621,7 +4892,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-06",
@@ -4638,7 +4910,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-07",
@@ -4655,7 +4928,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-08",
@@ -4672,7 +4946,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-09",
@@ -4689,7 +4964,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-10",
@@ -4706,7 +4982,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-11",
@@ -4723,7 +5000,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2025-12",
@@ -4740,7 +5018,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-01",
@@ -4757,7 +5036,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-02",
@@ -4774,7 +5054,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-03",
@@ -4791,7 +5072,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-04",
@@ -4808,7 +5090,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-05",
@@ -4825,7 +5108,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-06",
@@ -4842,7 +5126,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-07",
@@ -4859,7 +5144,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-08",
@@ -4876,7 +5162,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-NL-2026-09",
@@ -4893,7 +5180,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2023-10",
@@ -4910,7 +5198,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2023-11",
@@ -4927,7 +5216,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2023-12",
@@ -4944,7 +5234,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-01",
@@ -4961,7 +5252,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-02",
@@ -4978,7 +5270,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 29 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-03",
@@ -4995,7 +5288,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-04",
@@ -5012,7 +5306,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-05",
@@ -5029,7 +5324,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-06",
@@ -5046,7 +5342,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-07",
@@ -5063,7 +5360,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-08",
@@ -5080,7 +5378,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-09",
@@ -5097,7 +5396,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-10",
@@ -5114,7 +5414,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-11",
@@ -5131,7 +5432,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2024-12",
@@ -5148,7 +5450,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-01",
@@ -5165,7 +5468,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-02",
@@ -5182,7 +5486,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-03",
@@ -5199,7 +5504,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-04",
@@ -5216,7 +5522,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-05",
@@ -5233,7 +5540,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-06",
@@ -5250,7 +5558,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-07",
@@ -5267,7 +5576,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-08",
@@ -5284,7 +5594,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-09",
@@ -5301,7 +5612,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-10",
@@ -5318,7 +5630,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-11",
@@ -5335,7 +5648,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2025-12",
@@ -5352,7 +5666,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-01",
@@ -5369,7 +5684,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-02",
@@ -5386,7 +5702,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 28 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-03",
@@ -5403,7 +5720,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-04",
@@ -5420,7 +5738,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-05",
@@ -5437,7 +5756,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-06",
@@ -5454,7 +5774,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-07",
@@ -5471,7 +5792,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-08",
@@ -5488,7 +5810,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 31 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "indeed-ai-US-2026-09",
@@ -5505,194 +5828,2582 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "mean of 30 daily values",
-  "reported_via": null
+  "reported_via": null,
+  "skill": null
  },
  {
-  "id": "lc-US-2025",
+  "id": "lc26-AU-2023",
   "metric": "ai_skill_share",
   "role": "all",
-  "region": "US",
-  "period": "2025",
-  "value": 2.5,
+  "region": "AU",
+  "period": "2023",
+  "value": 0.799,
   "unit": "%",
-  "source_id": "stanford_ai_index_2026",
+  "source_id": "owid_lightcast_ai_index_2026",
   "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
   "is_estimate": false,
   "sample_size": null,
-  "notes": "",
-  "reported_via": "Lightcast blog summary (search result, page not read)"
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
  },
  {
-  "id": "lc-US-2024",
+  "id": "lc26-AU-2024",
   "metric": "ai_skill_share",
   "role": "all",
-  "region": "US",
+  "region": "AU",
   "period": "2024",
-  "value": 1.8,
+  "value": 1.0586,
   "unit": "%",
-  "source_id": "stanford_ai_index_2025",
+  "source_id": "owid_lightcast_ai_index_2026",
   "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
   "is_estimate": false,
   "sample_size": null,
-  "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
  },
  {
-  "id": "lc-SG-2024",
+  "id": "lc26-AU-2025",
   "metric": "ai_skill_share",
   "role": "all",
-  "region": "SG",
+  "region": "AU",
+  "period": "2025",
+  "value": 1.776,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-AT-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "AT",
+  "period": "2023",
+  "value": 0.7078,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-AT-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "AT",
   "period": "2024",
-  "value": 3.2,
+  "value": 0.7693,
   "unit": "%",
-  "source_id": "stanford_ai_index_2025",
+  "source_id": "owid_lightcast_ai_index_2026",
   "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
   "is_estimate": false,
   "sample_size": null,
-  "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
  },
  {
-  "id": "lc-SG-2025",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "SG",
-  "period": "2025",
-  "value": 5.0,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2026",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": true,
-  "sample_size": null,
-  "notes": "Reported as \"nearly 5%\"/\"near 5%\"; value is approximate.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-LU-2024",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "LU",
-  "period": "2024",
-  "value": 2.0,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2025",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-HK-2024",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "HK",
-  "period": "2024",
-  "value": 1.9,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2025",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-CH-eu",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "CH",
-  "period": "2025",
-  "value": 1.59,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2026",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "Reference year not confirmed (assumed 2025). Reported by secondary sites.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-DE-eu",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "DE",
-  "period": "2025",
-  "value": 1.13,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2026",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "Reference year not confirmed (assumed 2025). Reported by secondary sites.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-FR-eu",
-  "metric": "ai_skill_share",
-  "role": "all",
-  "region": "FR",
-  "period": "2025",
-  "value": 0.99,
-  "unit": "%",
-  "source_id": "stanford_ai_index_2026",
-  "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "Reference year not confirmed (assumed 2025). Reported by secondary sites.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lc-AT-eu",
+  "id": "lc26-AT-2025",
   "metric": "ai_skill_share",
   "role": "all",
   "region": "AT",
   "period": "2025",
-  "value": 0.84,
+  "value": 0.8417,
   "unit": "%",
-  "source_id": "stanford_ai_index_2026",
+  "source_id": "owid_lightcast_ai_index_2026",
   "retrieved_on": "2026-10-12",
-  "definition": "Share of job postings requiring at least one AI skill (Lightcast, via Stanford AI Index).",
-  "confidence": "C",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
   "is_estimate": false,
   "sample_size": null,
-  "notes": "Reference year not confirmed (assumed 2025). Reported by secondary sites.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
  },
  {
-  "id": "dc-canaries-19",
-  "metric": "employment_gap_age22_25",
+  "id": "lc26-BE-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "BE",
+  "period": "2023",
+  "value": 0.9153,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-BE-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "BE",
+  "period": "2024",
+  "value": 1.2249,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-BE-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "BE",
+  "period": "2025",
+  "value": 1.3568,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CA-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CA",
+  "period": "2023",
+  "value": 0.9675,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CA-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CA",
+  "period": "2024",
+  "value": 1.303,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CA-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CA",
+  "period": "2025",
+  "value": 3.0013,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CL-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CL",
+  "period": "2023",
+  "value": 0.3975,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CL-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CL",
+  "period": "2024",
+  "value": 0.3752,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CL-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CL",
+  "period": "2025",
+  "value": 2.4124,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HR-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HR",
+  "period": "2023",
+  "value": 0.1552,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HR-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HR",
+  "period": "2024",
+  "value": 0.2247,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HR-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HR",
+  "period": "2025",
+  "value": 0.3797,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-FR-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "FR",
+  "period": "2023",
+  "value": 0.7389,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-FR-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "FR",
+  "period": "2024",
+  "value": 0.7624,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-FR-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "FR",
+  "period": "2025",
+  "value": 0.988,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-DE-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "DE",
+  "period": "2023",
+  "value": 0.8114,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-DE-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "DE",
+  "period": "2024",
+  "value": 0.8381,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-DE-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "DE",
+  "period": "2025",
+  "value": 1.1299,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HK-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HK",
+  "period": "2023",
+  "value": 1.7173,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HK-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HK",
+  "period": "2024",
+  "value": 2.0071,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-HK-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "HK",
+  "period": "2025",
+  "value": 3.4756,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-IT-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "IT",
+  "period": "2023",
+  "value": 0.6123,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-IT-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "IT",
+  "period": "2024",
+  "value": 0.709,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-IT-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "IT",
+  "period": "2025",
+  "value": 1.3286,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-LU-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "LU",
+  "period": "2023",
+  "value": 1.7806,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-LU-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "LU",
+  "period": "2024",
+  "value": 2.3907,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-LU-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "LU",
+  "period": "2025",
+  "value": 3.4337,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-MX-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "MX",
+  "period": "2023",
+  "value": 0.6851,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-MX-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "MX",
+  "period": "2024",
+  "value": 0.543,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-MX-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "MX",
+  "period": "2025",
+  "value": 1.3832,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NL-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NL",
+  "period": "2023",
+  "value": 0.8101,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NL-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NL",
+  "period": "2024",
+  "value": 0.8884,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NL-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NL",
+  "period": "2025",
+  "value": 1.0408,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NZ-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NZ",
+  "period": "2023",
+  "value": 0.4366,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NZ-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NZ",
+  "period": "2024",
+  "value": 0.5457,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-NZ-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "NZ",
+  "period": "2025",
+  "value": 0.8122,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-PL-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "PL",
+  "period": "2023",
+  "value": 0.9183,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-PL-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "PL",
+  "period": "2024",
+  "value": 1.705,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-PL-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "PL",
+  "period": "2025",
+  "value": 2.9167,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SG-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SG",
+  "period": "2023",
+  "value": 2.3137,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SG-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SG",
+  "period": "2024",
+  "value": 2.8287,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SG-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SG",
+  "period": "2025",
+  "value": 4.6886,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-ES-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "ES",
+  "period": "2023",
+  "value": 1.7508,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-ES-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "ES",
+  "period": "2024",
+  "value": 2.1613,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-ES-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "ES",
+  "period": "2025",
+  "value": 3.3149,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SE-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SE",
+  "period": "2023",
+  "value": 1.263,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SE-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SE",
+  "period": "2024",
+  "value": 1.7387,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-SE-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "SE",
+  "period": "2025",
+  "value": 2.768,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CH-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CH",
+  "period": "2023",
+  "value": 0.7471,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CH-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CH",
+  "period": "2024",
+  "value": 1.0252,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-CH-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "CH",
+  "period": "2025",
+  "value": 1.594,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-AE-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "AE",
+  "period": "2023",
+  "value": 1.2904,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-AE-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "AE",
+  "period": "2024",
+  "value": 1.7058,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-AE-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "AE",
+  "period": "2025",
+  "value": 2.8718,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-GB-2023",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "GB",
+  "period": "2023",
+  "value": 0.7905,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-GB-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "GB",
+  "period": "2024",
+  "value": 1.052,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-GB-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "GB",
+  "period": "2025",
+  "value": 1.928,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-US-2023",
+  "metric": "ai_skill_share",
   "role": "all",
   "region": "US",
-  "period": "2026-08",
-  "value": -19.0,
+  "period": "2023",
+  "value": 1.2642,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-US-2024",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 1.6524,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lc26-US-2025",
+  "metric": "ai_skill_share",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 2.5554,
+  "unit": "%",
+  "source_id": "owid_lightcast_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of job postings that include at least one AI skill (Lightcast skill list of 300+ skills in 10 clusters, matched in posting text; list revised each edition). AI Index 2026 edition. Lightcast metric, not comparable with Indeed keyword share.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Via Our World in Data CSV of Lightcast / AI Index 2026; spot-checked against the report PDF.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "aix-skill-rag-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 2885.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Retrieval augmented generation"
+ },
+ {
+  "id": "aix-skill-rag-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 12609.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Retrieval augmented generation"
+ },
+ {
+  "id": "aix-skill-genai-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 65557.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Generative artificial intelligence"
+ },
+ {
+  "id": "aix-skill-genai-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 138188.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Generative artificial intelligence"
+ },
+ {
+  "id": "aix-skill-llm-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 19045.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Large language modeling"
+ },
+ {
+  "id": "aix-skill-llm-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 38526.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Large language modeling"
+ },
+ {
+  "id": "aix-skill-prompt-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 6152.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Prompt engineering"
+ },
+ {
+  "id": "aix-skill-prompt-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 22227.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Prompt engineering"
+ },
+ {
+  "id": "aix-skill-agentic-ai-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 151.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Agentic AI (single skill)"
+ },
+ {
+  "id": "aix-skill-agentic-ai-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 16541.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Agentic AI (single skill)"
+ },
+ {
+  "id": "aix-skill-ai-agents-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 1310.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "AI agents"
+ },
+ {
+  "id": "aix-skill-ai-agents-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 15217.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "AI agents"
+ },
+ {
+  "id": "aix-skill-chatgpt-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 5535.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "ChatGPT"
+ },
+ {
+  "id": "aix-skill-chatgpt-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 14376.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "ChatGPT"
+ },
+ {
+  "id": "aix-skill-conv-ai-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 5430.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Conversational AI"
+ },
+ {
+  "id": "aix-skill-conv-ai-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 6976.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Conversational AI"
+ },
+ {
+  "id": "aix-skill-langgraph-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 194.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "LangGraph"
+ },
+ {
+  "id": "aix-skill-langgraph-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 4294.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "LangGraph"
+ },
+ {
+  "id": "aix-skill-copilot-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 1416.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Microsoft Copilot"
+ },
+ {
+  "id": "aix-skill-copilot-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 6395.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Microsoft Copilot"
+ },
+ {
+  "id": "aix-skill-chatbot-2024",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 2316.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Chatbot"
+ },
+ {
+  "id": "aix-skill-chatbot-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 4596.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing the skill among US AI job postings (a posting can list several skills). Lightcast, AI Index 2026 report.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "AI Index 2026, section 4.4 skill charts (2024 vs 2025).",
+  "reported_via": null,
+  "skill": "Chatbot"
+ },
+ {
+  "id": "aix-py-2025",
+  "metric": "ai_skill_postings_count",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 258674.0,
+  "unit": "count",
+  "source_id": "stanford_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Postings listing Python (most frequent specialised skill in US AI postings). AI Index 2026 section 4.4.",
+  "confidence": "A",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "",
+  "reported_via": null,
+  "skill": "Python"
+ },
+ {
+  "id": "lcblog-agentic-cluster-2024",
+  "metric": "agentic_cluster_share_all_postings",
+  "role": "all",
+  "region": "US",
+  "period": "2024",
+  "value": 0.06,
+  "unit": "%",
+  "source_id": "lightcast_blog_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of all US job postings with Agentic AI cluster skills (agents, agentic systems). Lightcast blog quoting AI Index 2026.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Blog: \"more than 280% increase\", \"nearly 90,000 job postings in the US\". Different slice from the single skill \"Agentic AI\" (151 to 16,541 postings).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "lcblog-agentic-cluster-2025",
+  "metric": "agentic_cluster_share_all_postings",
+  "role": "all",
+  "region": "US",
+  "period": "2025",
+  "value": 0.23,
+  "unit": "%",
+  "source_id": "lightcast_blog_ai_index_2026",
+  "retrieved_on": "2026-10-12",
+  "definition": "Share of all US job postings with Agentic AI cluster skills (agents, agentic systems). Lightcast blog quoting AI Index 2026.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Blog: \"more than 280% increase\", \"nearly 90,000 job postings in the US\". Different slice from the single skill \"Agentic AI\" (151 to 16,541 postings).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "del-gap-2025-07",
+  "metric": "employment_shortfall_age22_25",
+  "role": "all",
+  "region": "US",
+  "period": "2025-07",
+  "value": 15.0,
   "unit": "%",
   "source_id": "stanford_del_canaries",
   "retrieved_on": "2026-10-12",
-  "definition": "Relative employment of 22-25 year-olds in highly AI-exposed occupations vs less-exposed peers (ADP payroll data). Descriptive, not causal.",
-  "confidence": "C",
+  "definition": "Employment of 22-25 year-olds in highly AI-exposed occupations is this % below where it would be had it kept pace with less-exposed peers (descriptive 'kept-pace shortfall'; ADP payroll data; not causal).",
+  "confidence": "B",
   "is_estimate": false,
   "sample_size": null,
-  "notes": "Prior-year figure reported as 13% or 15% by different sources; unresolved.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "notes": "Data vintage July 2025 (paper, Aug 2026 revision).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "del-gap-2026-06",
+  "metric": "employment_shortfall_age22_25",
+  "role": "all",
+  "region": "US",
+  "period": "2026-06",
+  "value": 19.0,
+  "unit": "%",
+  "source_id": "stanford_del_canaries",
+  "retrieved_on": "2026-10-12",
+  "definition": "Employment of 22-25 year-olds in highly AI-exposed occupations is this % below where it would be had it kept pace with less-exposed peers (descriptive 'kept-pace shortfall'; ADP payroll data; not causal).",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Data through June 2026. Experienced workers show no comparable gap; no economy-wide displacement found.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "del-reg-2025-07",
+  "metric": "employment_decline_age22_25_regression",
+  "role": "all",
+  "region": "US",
+  "period": "2025-07",
+  "value": 13.0,
+  "unit": "%",
+  "source_id": "stanford_del_canaries",
+  "retrieved_on": "2026-10-12",
+  "definition": "Earlier headline regression estimate (adjusting for firm-level shocks), relative decline for 22-25 year-olds in exposed occupations.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "Superseded as the headline; different method from the shortfall metric.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "del-reg-2025-09",
+  "metric": "employment_decline_age22_25_regression",
+  "role": "all",
+  "region": "US",
+  "period": "2025-09",
+  "value": 16.0,
+  "unit": "%",
+  "source_id": "stanford_del_canaries",
+  "retrieved_on": "2026-10-12",
+  "definition": "Same regression estimate, September 2025 data.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": null,
+  "notes": "",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-US-median",
+  "metric": "salary_median_total",
+  "role": "Data Analyst / BI",
+  "region": "US",
+  "period": "2026",
+  "value": 110000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1026,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-analyst. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-US-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Analyst / BI",
+  "region": "US",
+  "period": "2026",
+  "value": 85000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1026,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-analyst. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-US-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Analyst / BI",
+  "region": "US",
+  "period": "2026",
+  "value": 145000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1026,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-analyst. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-US-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Analyst / BI",
+  "region": "US",
+  "period": "2026",
+  "value": 187000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1026,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-analyst. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-DE-median",
+  "metric": "salary_median_total",
+  "role": "Data Analyst / BI",
+  "region": "DE",
+  "period": "2026",
+  "value": 73209.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 69,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-analyst/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-DE-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Analyst / BI",
+  "region": "DE",
+  "period": "2026",
+  "value": 63300.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 69,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-analyst/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-DE-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Analyst / BI",
+  "region": "DE",
+  "period": "2026",
+  "value": 84539.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 69,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-analyst/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataanalystbi-DE-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Analyst / BI",
+  "region": "DE",
+  "period": "2026",
+  "value": 106743.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 69,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-analyst/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-US-median",
+  "metric": "salary_median_total",
+  "role": "Data Scientist",
+  "region": "US",
+  "period": "2026",
+  "value": 180000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 3349,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-US-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Scientist",
+  "region": "US",
+  "period": "2026",
+  "value": 135000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 3349,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-US-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Scientist",
+  "region": "US",
+  "period": "2026",
+  "value": 250800.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 3349,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-US-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Scientist",
+  "region": "US",
+  "period": "2026",
+  "value": 340000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 3349,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-DE-median",
+  "metric": "salary_median_total",
+  "role": "Data Scientist",
+  "region": "DE",
+  "period": "2026",
+  "value": 77554.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 207,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-DE-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Scientist",
+  "region": "DE",
+  "period": "2026",
+  "value": 63359.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 207,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-DE-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Scientist",
+  "region": "DE",
+  "period": "2026",
+  "value": 100715.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 207,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-DE-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Scientist",
+  "region": "DE",
+  "period": "2026",
+  "value": 121976.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 207,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/germany. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-SG-median",
+  "metric": "salary_median_total",
+  "role": "Data Scientist",
+  "region": "SG",
+  "period": "2026",
+  "value": 120898.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 129,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/singapore. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-SG-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Scientist",
+  "region": "SG",
+  "period": "2026",
+  "value": 91287.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 129,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/singapore. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-SG-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Scientist",
+  "region": "SG",
+  "period": "2026",
+  "value": 162111.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 129,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/singapore. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-datascientist-SG-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Scientist",
+  "region": "SG",
+  "period": "2026",
+  "value": 205377.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 129,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/data-scientist/locations/singapore. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-US-median",
+  "metric": "salary_median_total",
+  "role": "AI / LLM Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 151000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 331,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-US-p25",
+  "metric": "salary_p25_total",
+  "role": "AI / LLM Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 109500.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 331,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-US-p75",
+  "metric": "salary_p75_total",
+  "role": "AI / LLM Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 211250.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 331,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-US-p90",
+  "metric": "salary_p90_total",
+  "role": "AI / LLM Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 278900.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 331,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-DE-median",
+  "metric": "salary_median_total",
+  "role": "AI / LLM Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 81054.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 52,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-DE-p25",
+  "metric": "salary_p25_total",
+  "role": "AI / LLM Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 70523.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 52,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-DE-p75",
+  "metric": "salary_p75_total",
+  "role": "AI / LLM Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 99899.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 52,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-aillmengineer-DE-p90",
+  "metric": "salary_p90_total",
+  "role": "AI / LLM Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 124803.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 52,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/ai-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataengineer-US-median",
+  "metric": "salary_median_total",
+  "role": "Data Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 157300.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1202,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/data-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataengineer-US-p25",
+  "metric": "salary_p25_total",
+  "role": "Data Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 115500.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1202,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/data-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataengineer-US-p75",
+  "metric": "salary_p75_total",
+  "role": "Data Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 225000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1202,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/data-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-dataengineer-US-p90",
+  "metric": "salary_p90_total",
+  "role": "Data Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 315000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1202,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/data-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-US-median",
+  "metric": "salary_median_total",
+  "role": "Machine Learning Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 280000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1060,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-US-p25",
+  "metric": "salary_p25_total",
+  "role": "Machine Learning Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 200000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1060,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-US-p75",
+  "metric": "salary_p75_total",
+  "role": "Machine Learning Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 386000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1060,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-US-p90",
+  "metric": "salary_p90_total",
+  "role": "Machine Learning Engineer",
+  "region": "US",
+  "period": "2026",
+  "value": 495000.0,
+  "unit": "USD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 1060,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-DE-median",
+  "metric": "salary_median_total",
+  "role": "Machine Learning Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 89013.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 67,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-DE-p25",
+  "metric": "salary_p25_total",
+  "role": "Machine Learning Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 72428.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 67,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-DE-p75",
+  "metric": "salary_p75_total",
+  "role": "Machine Learning Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 106858.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 67,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-DE-p90",
+  "metric": "salary_p90_total",
+  "role": "Machine Learning Engineer",
+  "region": "DE",
+  "period": "2026",
+  "value": 141465.0,
+  "unit": "EUR",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 67,
+  "notes": "Page last updated October 12, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-SG-median",
+  "metric": "salary_median_total",
+  "role": "Machine Learning Engineer",
+  "region": "SG",
+  "period": "2026",
+  "value": 141805.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 38,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-SG-p25",
+  "metric": "salary_p25_total",
+  "role": "Machine Learning Engineer",
+  "region": "SG",
+  "period": "2026",
+  "value": 108603.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 38,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-SG-p75",
+  "metric": "salary_p75_total",
+  "role": "Machine Learning Engineer",
+  "region": "SG",
+  "period": "2026",
+  "value": 178876.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 38,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-machinelearnin-SG-p90",
+  "metric": "salary_p90_total",
+  "role": "Machine Learning Engineer",
+  "region": "SG",
+  "period": "2026",
+  "value": 207048.0,
+  "unit": "SGD",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "C",
+  "is_estimate": false,
+  "sample_size": 38,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer. Data source: Levels.fyi (https://www.levels.fyi). Region taken from the requested URL: the page header says Location: United States with a generic URL, though the figures are country-specific.",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-softwareengine-TH-median",
+  "metric": "salary_median_total",
+  "role": "Software Engineer (context)",
+  "region": "TH",
+  "period": "2026",
+  "value": 939716.0,
+  "unit": "THB",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "Median total compensation (base + annualised stock + bonus), self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 273,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/locations/thailand. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-softwareengine-TH-p25",
+  "metric": "salary_p25_total",
+  "role": "Software Engineer (context)",
+  "region": "TH",
+  "period": "2026",
+  "value": 588401.0,
+  "unit": "THB",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "25th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 273,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/locations/thailand. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-softwareengine-TH-p75",
+  "metric": "salary_p75_total",
+  "role": "Software Engineer (context)",
+  "region": "TH",
+  "period": "2026",
+  "value": 1898552.0,
+  "unit": "THB",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "75th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 273,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/locations/thailand. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
+ },
+ {
+  "id": "levels-softwareengine-TH-p90",
+  "metric": "salary_p90_total",
+  "role": "Software Engineer (context)",
+  "region": "TH",
+  "period": "2026",
+  "value": 2687877.0,
+  "unit": "THB",
+  "source_id": "levels_fyi",
+  "retrieved_on": "2026-10-12",
+  "definition": "90th percentile total compensation, self-reported to Levels.fyi, annual.",
+  "confidence": "B",
+  "is_estimate": false,
+  "sample_size": 273,
+  "notes": "Page last updated October 11, 2026. Page: https://www.levels.fyi/t/software-engineer/locations/thailand. Data source: Levels.fyi (https://www.levels.fyi).",
+  "reported_via": null,
+  "skill": null
  },
  {
   "id": "ix-sw-senior-71",
@@ -5709,7 +8420,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "ix-sw-ai-37",
@@ -5726,7 +8438,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "th-talent-51",
@@ -5743,7 +8456,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "th-ai-grads",
@@ -5760,7 +8474,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "Origin unverified.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "th-invest-79",
@@ -5777,41 +8492,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lv-ai-US",
-  "metric": "salary_median_total",
-  "role": "AI / LLM Engineer",
-  "region": "US",
-  "period": "2026",
-  "value": 151000.0,
-  "unit": "USD",
-  "source_id": "levels_fyi",
-  "retrieved_on": "2026-10-12",
-  "definition": "Median total comp (base+bonus+equity), self-reported.",
-  "confidence": "C",
-  "is_estimate": false,
-  "sample_size": null,
-  "notes": "Levels.fyi page 'updated 10 Oct 2026'. Other aggregators report $159,430 to $245k; spread is itself a finding.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
- },
- {
-  "id": "lv-ml-US",
-  "metric": "salary_median_total",
-  "role": "Machine Learning Engineer",
-  "region": "US",
-  "period": "2026",
-  "value": 279000.0,
-  "unit": "USD",
-  "source_id": "levels_fyi",
-  "retrieved_on": "2026-10-12",
-  "definition": "Median total comp, self-reported.",
-  "confidence": "C",
-  "is_estimate": true,
-  "sample_size": null,
-  "notes": "Reported range $278k-$280k. Big-tech skew.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "lv-ai-TH",
@@ -5828,7 +8510,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "Sample size not recorded.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "eri-ai-TH",
@@ -5845,7 +8528,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "lv-ds-TH",
@@ -5862,7 +8546,8 @@
   "is_estimate": false,
   "sample_size": 13,
   "notes": "n=13 (small). A second page gives Bangkok THB 909,379; the two disagree.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "lv-de-TH",
@@ -5879,7 +8564,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "Sample size not recorded.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "lv-da-TH",
@@ -5896,7 +8582,8 @@
   "is_estimate": false,
   "sample_size": null,
   "notes": "Sample size not recorded.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "ev-ai-TH-lo",
@@ -5913,7 +8600,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "Role mapping is loose: band covers AI, data and analytics.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "ev-ai-TH-hi",
@@ -5930,7 +8618,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "mm-ai-SG-lo",
@@ -5947,7 +8636,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "mm-ai-SG-hi",
@@ -5964,7 +8654,8 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  },
  {
   "id": "eri-ai-DE",
@@ -5981,6 +8672,7 @@
   "is_estimate": true,
   "sample_size": null,
   "notes": "Title definitions differ widely between sources.",
-  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched"
+  "reported_via": "PLAN.md seed list (first research pass, 12 Oct 2026); primary page not re-fetched",
+  "skill": null
  }
 ]

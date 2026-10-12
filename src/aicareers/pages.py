@@ -48,35 +48,41 @@ def index(obs: list[Observation]) -> str:
     return shell("Overview", f'''<h1>AI-related careers, late 2023 to Oct 2026</h1>
 <p>An exploratory, source-traceable look at how AI-related careers changed, comparing Thailand with the US, Europe and Singapore/APAC. It starts from no hypothesis and reports what each source says, including where sources disagree or where there is no data.</p>
 <h2>Demand: Indeed AI keyword share</h2>
-<p>This is the only series so far fetched from its primary source. It measures the share of Indeed job postings whose text contains AI keywords (for example "Machine Learning", "Data Science", "Artificial Intelligence"). It covers nine countries. <strong>Thailand, Singapore and other APAC markets are not in the dataset.</strong> A keyword match does not mean the job requires AI skills, and it counts titles that were relabelled as well as new demand.</p>
+<p>The share of Indeed job postings whose text contains AI keywords (for example "Machine Learning", "Data Science", "Artificial Intelligence"). It covers nine countries. <strong>Thailand, Singapore and other APAC markets are not in the dataset.</strong> A keyword match does not mean the job requires AI skills, and it counts relabelled titles as well as new demand.</p>
 {chart("timeseries", metric="ai_keyword_share", regions="US,GB,DE,FR,NL,IE,IT,AU,CA", title="Indeed: share of job postings with AI keywords, monthly mean of daily values", sub="Unit: % of postings. Oct 2023 to Sep 2026. Source: Indeed Hiring Lab AI Tracker (CC BY 4.0).", name="indeed_ai_keyword_share")}
 {table}
-<p class="sub">Start and end points of the series for each country (monthly mean of 7-day trailing daily values; our aggregation). The series rises in every covered country over the window; the data cannot say how much is new demand and how much is changed wording.</p>
-<h2>Demand: share of postings requiring an AI skill (Lightcast / Stanford AI Index)</h2>
-<p>A different metric from the one above (a posting must <em>require</em> an AI skill). Not plotted on the same axis. These figures are currently secondary or unverified, so they are hidden unless you tick the confidence C box.</p>
-{chart("bars", metric="ai_skill_share", title="Lightcast: share of postings requiring at least one AI skill", sub="Unit: % of postings. Annual. Missing country-years are gaps, not zeros.", name="lightcast_ai_skill_share")}
+<p class="sub">Start and end of the series per country (monthly mean of 7-day trailing daily values; our aggregation). The series is higher at the end than at the start in every covered country. The data cannot say how much is new demand and how much is changed wording.</p>
+<h2>Demand: share of postings with an AI skill (Lightcast, AI Index 2026)</h2>
+<p>A different metric from the one above: a posting counts when its text includes at least one of 300+ AI skills on Lightcast's list (10 skill clusters; the list is revised every edition, and an "agentic AI" cluster was added this year). <strong>Not plotted with the Indeed series.</strong> Values are comparable only within the 2026 edition: the 2025 edition reported different figures for 2024 (for example US 1.8% vs 1.65% here, Singapore 3.2% vs 2.83%). The set covers 22 economies; <strong>Thailand is not one of them.</strong> Source is the Our World in Data republication of the AI Index 2026 data; 2025 values for 11 economies match the report's Figure 4.4.2 labels.</p>
+{chart("bars", metric="ai_skill_share", title="Lightcast: share of job postings with at least one AI skill", sub="Unit: % of postings. 2023 to 2025, annual. Missing economy-years are gaps, not zeros.", name="lightcast_ai_skill_share")}
+<h2>Requirements and skills (US, Lightcast)</h2>
+<p>Counts of US AI-skill postings that list each skill, 2024 vs 2025 (a posting can list several skills). The AI Index notes that generative AI mentions grew 111% while their share of AI postings fell 5%, and that the share of AI postings mentioning ChatGPT, chatbot or conversational AI declined while agent-related and orchestration terms (for example LangGraph) rose. The "280%+" figure in the Lightcast blog is the agentic cluster's share of <em>all</em> US postings (0.06% to 0.23%); the larger percentages seen elsewhere describe single skills such as "Agentic AI" (151 to 16,541 postings). Only 2024 and 2025 are available; there is no 2023 skill baseline in the sources read so far.</p>
+{chart("bars", metric="ai_skill_postings_count", group="skill", title="US AI job postings listing each skill, 2024 vs 2025", sub="Unit: postings (count). Lightcast via AI Index 2026, section 4.4.", name="us_ai_skill_counts")}
 <h2>Pay</h2>
-<p>Pay figures are self-reported (Levels.fyi, skewed towards big tech), recruiter-estimated, or modelled. Sources are shown side by side and never merged or converted. No FX rate has been retrieved yet, so there is no USD conversion. There is no reliable 2023 to 2026 pay trend in the data collected so far.</p>
-{chart("pay", title="Pay observations by source (local currency, annual unless the definition says monthly)", sub="2026 cross-section only.", name="pay_all")}
+<p>Pay figures are self-reported (Levels.fyi, verified in tiers but skewed towards big tech), recruiter-estimated, or modelled. Sources are shown side by side and never merged. Local currency comes first; USD uses the ECB reference rate of 9 Oct 2026. Percentile ranges are shown where the source gives them, because one median hides a wide spread (for the US AI Engineer page, p25 to p75 spans $109,500 to $211,250). Rows with confidence C are hidden by default. There is no 2023 to 2026 pay trend in the data collected.</p>
+{chart("pay", title="Pay observations by source (annual total compensation unless the definition says otherwise)", sub="2026 cross-section only. Each row names its source, definition, n and confidence.", name="pay_all")}
 <h2 id="entry">Entry level vs senior</h2>
-<p>The evidence collected is US only and descriptive (Stanford Digital Economy Lab, ADP payroll data). Currently unverified, so confidence C.</p>
-{chart("bars", metric="employment_gap_age22_25", title="Employment of 22-25 year-olds in highly AI-exposed occupations relative to less-exposed peers", sub="Unit: % difference. US only. Descriptive, not causal.", name="entry_level")}
+<p>The evidence is US only, from ADP payroll data, and descriptive rather than causal. The authors report no evidence of widespread economy-wide job displacement and no comparable gap for experienced workers. The earlier headline numbers (13% in July 2025, 16% in September 2025) came from a regression adjusting for firm-level shocks; the 15% and 19% below are the simpler descriptive shortfall the authors now emphasise.</p>
+{chart("bars", metric="employment_shortfall_age22_25", title="Employment of 22-25 year-olds in highly AI-exposed occupations, % below where it would be had it kept pace with less-exposed peers", sub="Unit: %. US only, ADP data. Data vintages July 2025 and June 2026 (Stanford Digital Economy Lab, revised 12 Aug 2026).", name="entry_level")}
 <h2 id="roles">Role deep-dives</h2><ul>{roles}</ul>
-<h2 id="verification">Verification log</h2>
+<h2 id="verification">Verification log (checks against primary pages, 12 Oct 2026)</h2>
 <ul>
-<li><strong>Indeed US peak.</strong> A starting note said the US share peaked at 4.2% in December 2025. The current primary CSV shows December 2025 at 4.38% (monthly mean) and values continuing to rise to {last}. The CSV is used; the earlier note is not.</li>
-<li><strong>Indeed Q1 2026 Europe.</strong> A starting note (via a secondary blog) gave Germany 4.2%, France 3.3%, UK 2.7%, Netherlands 2.2%. The current CSV gives roughly 4.4%, 3.5%, 7.3% and 2.8% for the Q1 2026 mean. The UK figure differs most. The reason is not established (an earlier data vintage, a different metric, or a misquote); the secondary figures are not used.</li>
-<li><strong>Not reachable from the build environment:</strong> Stanford AI Index, Levels.fyi, Indeed Hiring Lab articles, Stanford Digital Economy Lab, BLS, Wayback, JobsDB. Figures from these are carried as confidence C until the primary page is read. Re-run fetching from an environment with open network access.</li>
-<li><strong>Indeed GenAI series.</strong> The tracker README lists GenAI_posting.csv, but that file returns 404 (retrieved 2026-10-12).</li>
+<li><strong>Confirmed.</strong> US share of postings with AI skills 2.5% (+55% YoY) and Singapore about 4.8%, from Lightcast's blog; Switzerland 1.59%, Germany 1.13%, France 0.99%, Austria 0.84% (AI Index Figure 4.4.2); RAG postings 2,885 to 12,609 in the US (AI Index section 4.4); 19% employment shortfall (Stanford DEL); Levels.fyi US AI Engineer median $151,000, n=331, page updated 11 Oct 2026 (the starting note said 10 Oct).</li>
+<li><strong>Resolved.</strong> The "10,854%" agentic figure is the single skill "Agentic AI" (151 to 16,541 postings), not the cluster. The 13% vs 15% question: 13% was the earlier regression headline, 15% the descriptive shortfall at the same July 2025 vintage.</li>
+<li><strong>Edition differences.</strong> Starting notes took 2024 values (US 1.8%, Singapore 3.2%, Luxembourg 2.0%, Hong Kong 1.9%) from the 2025 report. The 2026 edition gives 1.65%, 2.83%, 2.39% and 2.01% for 2024 because the skill list changes yearly. Only same-edition values are plotted together.</li>
+<li><strong>Not matched.</strong> A starting note said the Indeed US share peaked at 4.2% in December 2025. The current Indeed CSV shows December 2025 at 4.38% (monthly mean), still rising to {last}. A note via a secondary blog gave Q1 2026 Germany 4.2%, France 3.3%, UK 2.7%, Netherlands 2.2%; the CSV gives about 4.4%, 3.5%, 7.3% and 2.8%. The UK differs most; the cause is not established. The CSV is used.</li>
+<li><strong>Levels.fyi data quality.</strong> For role plus country pages the markdown header says "Location: United States" with a generic URL, while the figures are in local currency with different sample sizes. Region is taken from the URL requested and these rows are confidence C. Role pages for Thailand did not return data, so the earlier Thai role figures stay unverified (confidence C).</li>
+<li><strong>Still not reachable:</strong> Indeed Hiring Lab articles (redirects to a blocked host), BLS, JobsDB and Wayback. Their figures stay confidence C or absent.</li>
+<li><strong>Indeed GenAI series.</strong> The tracker README lists GenAI_posting.csv, but that file returns 404.</li>
 </ul>
 <h2 id="limits">Method and limits</h2>
 <ul>
-<li>Every number is an observation with source, retrieval date, definition, confidence (A primary and method documented; B primary but self-reported or small sample; C secondary or unverified) and an estimate flag.</li>
+<li>Every number is an observation with source, retrieval date, definition, confidence (A primary and method documented; B primary but republished, self-reported or small sample; C secondary or unverified) and an estimate flag.</li>
 <li>Metrics with different definitions are never plotted together. Missing years or regions are left as gaps.</li>
-<li>Pay: self-reporting and survivorship bias, big-tech skew, ambiguous titles (the same title covers different jobs), recruiter figures are indicative.</li>
-<li>Postings: duplicates and ghost jobs inflate counts; keyword matching is not skill requirement.</li>
-<li>Entry-level evidence is US-centric. Thai data is thin: no Thai series in the Indeed tracker, and Thai posting counts depend on the exact search query and date.</li>
-<li>Currency: no conversion until an FX rate with date and source is recorded.</li>
+<li>Pay: self-reporting and survivorship bias, big-tech skew, ambiguous titles, recruiter figures are indicative.</li>
+<li>Postings: duplicates and ghost jobs inflate counts; keyword or skill-list matching is not the same as a skill requirement.</li>
+<li>Entry-level evidence is US-centric. Thai data is thin: no Thai series in the Indeed tracker or the Lightcast set, and Thai posting counts depend on the exact search query and date.</li>
+<li>Currency: USD uses ECB reference rates dated 9 Oct 2026, applied to 2026 figures only.</li>
 </ul>
 <h2>How to contribute data or corrections</h2>
 <p>Open an issue with the figure, the primary URL, the retrieval date and the exact definition. Corrections to anything on these pages are welcome.</p>
@@ -88,11 +94,12 @@ def compare(obs: list[Observation]) -> str:
 <p>Thailand evidence is thin. This page shows what exists and states plainly what does not.</p>
 <h2>Demand</h2>
 <ul><li><strong>Indeed AI Tracker:</strong> no Thailand series (covered: AU, CA, DE, FR, GB, IE, IT, NL, US).</li>
-<li><strong>Lightcast / AI Index share requiring an AI skill:</strong> no Thailand figure collected yet. Singapore and a few other economies appear below (confidence C, hidden by default).</li>
-<li><strong>JobsDB Thailand counts:</strong> search counts depend on the query text and date, and queries like "AI" mix in trainers and sales roles. Counts from earlier notes were not recorded with an exact query and date, so they are not entered. <code>data/processed/thailand_jobsdb_snapshots.csv</code> and <code>aicareers-log-snapshot</code> exist so a like-for-like series can accumulate from now on. No trend can be drawn today.</li></ul>
-{chart("bars", metric="ai_skill_share", title="Lightcast: share of postings requiring at least one AI skill", sub="Unit: %. Thailand absent from the data collected.", name="compare_lightcast")}
-<h2>Pay (local currency, separate sources, not converted)</h2>
-{chart("pay", title="Pay observations, all regions", sub="Thailand: Levels.fyi pages are small-sample and disagree with each other; recruiter bands are indicative.", name="compare_pay")}
+<li><strong>Lightcast / AI Index share with an AI skill:</strong> Thailand is not among the 22 economies covered. Singapore and Hong Kong are the nearest APAC comparators.</li>
+<li><strong>JobsDB Thailand counts:</strong> search counts depend on the query text and date, and queries like "AI" mix in trainers and sales roles. The site returned 403 to the build environment, and earlier counts were not recorded with an exact query and date, so none are entered. <code>data/processed/thailand_jobsdb_snapshots.csv</code> and <code>aicareers-log-snapshot</code> let a like-for-like series accumulate from now on. No trend can be drawn today.</li></ul>
+{chart("bars", metric="ai_skill_share", title="Lightcast: share of job postings with at least one AI skill", sub="Unit: %. Thailand absent from the dataset.", name="compare_lightcast")}
+<h2>Pay (local currency first; USD at the stated ECB rate)</h2>
+<p>The only verified Thai pay figure is for the generic <em>Software Engineer</em> role on Levels.fyi, shown as context. Role-specific Thai figures (AI, data) are unverified, from earlier notes, and shown only when confidence C is included. Levels.fyi Thai medians depend on a self-selected sample.</p>
+{chart("pay", title="Pay observations, all regions", sub="Compare within a role and source first; sources differ in definition and sample.", name="compare_pay")}
 <h2>Employer context</h2>
 {chart("bars", metric="org_share_cites_talent_shortage", title="Thailand: organisations citing talent shortage as top barrier to AI adoption", sub="Unit: %. Survey (AWS Summit Bangkok 2026), reported via secondary source.", name="th_talent")}
 {chart("bars", metric="org_share_plan_ai_invest_up_50", title="Thailand: enterprises planning to raise AI investment by 50% or more", sub="Unit: %. Survey (Alibaba Cloud / NielsenIQ), reported via secondary source.", name="th_invest")}

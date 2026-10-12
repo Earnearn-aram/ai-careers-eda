@@ -1,0 +1,51 @@
+{
+ "USD": {
+  "currency": "USD",
+  "usd_per_unit": 1.0,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "EUR": {
+  "currency": "EUR",
+  "usd_per_unit": 1.1206,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "GBP": {
+  "currency": "GBP",
+  "usd_per_unit": 1.3220391,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "CHF": {
+  "currency": "CHF",
+  "usd_per_unit": 1.20326425,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "SGD": {
+  "currency": "SGD",
+  "usd_per_unit": 0.78101478,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "THB": {
+  "currency": "THB",
+  "usd_per_unit": 0.02982381,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ },
+ "HKD": {
+  "currency": "HKD",
+  "usd_per_unit": 0.12742779,
+  "as_of": "2026-10-09",
+  "source": "ECB euro foreign exchange reference rates",
+  "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+ }
+}

@@ -6,15 +6,18 @@ An exploratory, neutral, source-traceable look at how AI-related careers changed
 
 | Piece | State |
 |---|---|
-| Schema, build, tests, static site | Working |
+| Schema, build, tests (16), static site | Working |
 | Indeed AI Tracker (9 countries, no TH/SG) | Fetched from primary, confidence A |
-| Lightcast / AI Index, Levels.fyi, recruiter guides, Stanford DEL, Indeed articles | **Not fetched.** Their hosts were unreachable from the build environment. Seed figures from PLAN.md are loaded as confidence C and hidden by default |
-| Seed claims re-checked against the Indeed CSV | Two did not match (US peak, UK/Europe Q1 2026); see the Verification log on the overview page |
-| FX conversion | No rate retrieved, so no USD conversion |
-| Thailand series | None. JobsDB snapshot log is empty; start it with `aicareers-log-snapshot` |
-| Role pages | Structure only; most lenses state "no data collected" |
+| Lightcast AI-skill share, 22 economies, 2023-2025 (Thailand not covered) | Via Our World in Data CSV of AI Index 2026; spot-checked against the report PDF; confidence B |
+| US skill counts (RAG, agents, ...), 2024 vs 2025 | From the AI Index 2026 PDF; confidence A |
+| Entry level (Stanford DEL, ADP payroll, US only) | From the Aug 2026 paper; confidence B |
+| Pay: Levels.fyi, US/DE/SG roles, Thailand generic Software Engineer | `.md` routes; confidence B (C where region was inferred, see overview) |
+| FX | ECB reference rates dated 2026-10-09 |
+| Not reachable | Indeed Hiring Lab articles (blocked redirect host), BLS (403), JobsDB (403), Wayback |
+| Thai role-level pay and demand | Unverified seed values only (confidence C); JobsDB snapshot log is empty |
+| Role pages | Pay where data exists; other lenses state "no data collected" |
 
-Next: re-run fetching from an environment with open network access and replace each C-grade seed row with a primary-page value (record `n` and last-updated for Levels.fyi).
+Raw files from third parties are not committed; `data/raw/MANIFEST.csv` lists URL, date and sha256, and `scripts/fetch_raw.sh` re-fetches and compares.
 
 ## Use
 

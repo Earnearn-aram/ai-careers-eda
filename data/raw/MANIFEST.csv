@@ -1,0 +1,8 @@
+path,url,retrieved_on,sha256
+indeed_ai_tracker/AI_posting.csv,https://raw.githubusercontent.com/hiring-lab/ai-tracker/main/AI_posting.csv,2026-10-12,7868f1662ffd62e7914606bd15beaad56a8d42e680aa74b869ce1c5171eb11f2
+owid/share-ai-job-postings.csv,https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings.csv?useColumnShortNames=true,2026-10-12,acd9c6d9f356ccac38cf04faf963f0ad5537ab5a9a68ef722fe3153d1781dcbd
+owid/share-ai-job-postings.metadata.json,https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings.metadata.json,2026-10-12,c0ec71df8cf559cfdc420bc32ff4a19254cf6df585304ff2d82c9081f8bd84a0
+ecb/eurofxref-daily.xml,https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml,2026-10-12,cf79007a1de55aea7158681ed3731e72ae15f80a92a916d7e0eb32f5640142cd
+lightcast/stanford-ai-2026.html,https://lightcast.io/resources/blog/stanford-ai-2026,2026-10-12,3e811cfcc42850892161078a3760e881c40e05ab60a8aca03331e7d1dfb7f0fe
+ai_index/ai_index_report_2026.pdf,https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf,2026-10-12,fff5ac1df971cee7daf847fa5ed00dd7444db693092821c3e691debc1eaada09
+stanford_del/Canaries_August2026.pdf,https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf,2026-10-12,c8d2e5c4ccc0de7ef977c191c144726d6073e164b33f30397fcb0090165d2bdf

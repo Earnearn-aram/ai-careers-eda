@@ -1,19 +1,21 @@
 id,name,url,retrieved_on,tier,status,notes
-indeed_ai_tracker,Indeed Hiring Lab AI Tracker (CSV),https://github.com/hiring-lab/ai-tracker,2026-10-12,primary,fetched,"AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0."
-stanford_ai_index_2026,Stanford AI Index 2026 (Lightcast data),https://hai.stanford.edu/ai-index,,primary,unreachable,"Host not reachable from build environment. Figures held as confidence C via Lightcast blog/search summaries."
-stanford_ai_index_2025,Stanford AI Index 2025 (Lightcast data),https://hai.stanford.edu/ai-index,,primary,unreachable,"Not reachable."
-stanford_ai_index_2024,Stanford AI Index 2024 (Lightcast data),https://hai.stanford.edu/ai-index,,primary,pending,"Needed for 2023 baseline."
-lightcast_blog_ai_index_2026,Lightcast blog: Four Takeaways from the 2026 Stanford AI Index,https://lightcast.io/resources/blog/stanford-ai-2026,,secondary,unreachable,"Seen only as a search-result summary on 2026-10-12; page not read."
-indeed_hiringlab_articles,Indeed Hiring Lab articles (8 Jul 2026 software dev),https://www.hiringlab.org/,,primary,unreachable,"Host not reachable; try Wayback."
-stanford_del_canaries,Stanford Digital Economy Lab: Canaries in the Coal Mine? (rev. 12 Aug 2026),https://digitaleconomy.stanford.edu/,,primary,unreachable,"Not reachable. 19% vs 13%/15% prior figure unresolved."
-levels_fyi,Levels.fyi (AI Engineer / ML / DS / DE / DA by country),https://www.levels.fyi/,,primary,unreachable,"Self-reported; big-tech skew. Record n and last-updated on each page."
-eri_salaryexpert,ERI SalaryExpert,https://www.salaryexpert.com/,,primary,unreachable,"Estimate model."
-evantis_th_2026,Evantis Thailand Salary Guide 2026,https://www.evantis.co.th/,,primary,unreachable,"Recruiter-estimated monthly base."
+indeed_ai_tracker,Indeed Hiring Lab AI Tracker (CSV),https://github.com/hiring-lab/ai-tracker,2026-10-12,primary,fetched,AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0.
+stanford_ai_index_2026,Stanford AI Index 2026 (Lightcast data),https://hai.stanford.edu/ai-index/2026-ai-index-report,2026-10-12,primary,fetched,"Full report PDF (hai.stanford.edu/assets/files/ai_index_report_2026.pdf) fetched and text-extracted; not redistributed (see data/raw/MANIFEST.csv). Used: section 4.4 Jobs (skill counts, Figure 4.4.2 country shares), Appendix (AI skill definition: 300+ skills, 10 clusters, text match)."
+stanford_ai_index_2025,Stanford AI Index 2025 (Lightcast data),https://hai.stanford.edu/ai-index,,primary,unreachable,Not reachable.
+stanford_ai_index_2024,Stanford AI Index 2024 (Lightcast data),https://hai.stanford.edu/ai-index,,primary,pending,Needed for 2023 baseline.
+lightcast_blog_ai_index_2026,Lightcast blog: Four Takeaways from the 2026 Stanford AI Index,https://lightcast.io/resources/blog/stanford-ai-2026,2026-10-12,primary,fetched,"Lightcast (the data owner) blog, read in full 2026-10-12: US 2.5% (+55% YoY), agentic cluster 0.06% to 0.23%, SG 4.769%. Page itself uses 'mention' and 'requiring' interchangeably."
+indeed_hiringlab_articles,Indeed Hiring Lab articles (8 Jul 2026 software dev),https://www.hiringlab.org/,,primary,unreachable,"www.hiringlab.org redirects to hiringlab.indeed.com, which the egress proxy blocks. Add that host to Allowed domains."
+stanford_del_canaries,Stanford Digital Economy Lab: Canaries in the Coal Mine? (rev. 12 Aug 2026),https://digitaleconomy.stanford.edu/,2026-10-12,primary,fetched,"Publication page and Aug 2026 PDF fetched. 19% (June 2026) and 15% (July 2025) are the descriptive shortfall; 13%/16% were earlier regression headlines. ADP payroll, US only, descriptive."
+levels_fyi,Levels.fyi (AI Engineer / ML / DS / DE / DA by country),https://www.levels.fyi/,2026-10-12,primary,fetched,".md summary routes per levels.fyi robots.txt/llms.txt. Role+country pages exist only for some combinations; Thailand only for generic Software Engineer. Title+country pages carry a wrong header (Location: United States), so region is inferred from the requested URL and rows are confidence C. Raw files not redistributed (Levels.fyi Data License); attribution: 'Data source: Levels.fyi'."
+eri_salaryexpert,ERI SalaryExpert,https://www.salaryexpert.com/,,primary,unreachable,Estimate model.
+evantis_th_2026,Evantis Thailand Salary Guide 2026,https://www.evantis.co.th/,,primary,unreachable,Recruiter-estimated monthly base.
 morgan_mckinley_sg,Morgan McKinley Singapore salary guide,https://www.morganmckinley.com/sg,,primary,unreachable,
-robert_walters,Robert Walters SG/TH salary survey,https://www.robertwalters.com/,,primary,unreachable,"Singapore bands seen only via secondary."
-bls_oews,BLS OEWS,https://www.bls.gov/oes/,,primary,unreachable,
-jobsdb_th,JobsDB Thailand search result counts,https://th.jobsdb.com/,,primary,unreachable,"Snapshot counts, query-dependent; manual log only, see data/processed/thailand_jobsdb_snapshots.csv."
-aws_summit_bkk_2026,AWS Summit Bangkok 2026 (via secondary),https://aws.amazon.com/,,secondary,unreachable,"Talent shortage 51%."
+robert_walters,Robert Walters SG/TH salary survey,https://www.robertwalters.com/,,primary,unreachable,Singapore bands seen only via secondary.
+bls_oews,BLS OEWS,https://www.bls.gov/oes/,,primary,unreachable,www.bls.gov returns 403 to the build environment.
+jobsdb_th,JobsDB Thailand search result counts,https://th.jobsdb.com/,,primary,unreachable,th.jobsdb.com returns 403; counts must be read manually. Snapshot log: data/processed/thailand_jobsdb_snapshots.csv.
+aws_summit_bkk_2026,AWS Summit Bangkok 2026 (via secondary),https://aws.amazon.com/,,secondary,unreachable,Talent shortage 51%.
 alibaba_nielseniq_apac,Alibaba Cloud / NielsenIQ APAC AI survey (via secondary),https://www.alibabacloud.com/,,secondary,unreachable,
-predictleads_eu_ai,PredictLeads Europe AI engineering postings,https://predictleads.com/,,secondary,unreachable,"Vendor data."
-plan_seed_2026_10_12,Seed figures in PLAN.md (first research pass 12 Oct 2026),PLAN.md,2026-10-12,secondary,fetched,"Unverified starting points. Used only as confidence C."
+predictleads_eu_ai,PredictLeads Europe AI engineering postings,https://predictleads.com/,,secondary,unreachable,Vendor data.
+plan_seed_2026_10_12,Seed figures in PLAN.md (first research pass 12 Oct 2026),PLAN.md,2026-10-12,secondary,fetched,Unverified starting points. Used only as confidence C.
+owid_lightcast_ai_index_2026,Our World in Data: Share of AI jobs among all job postings (Lightcast via AI Index 2026),https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings,2026-10-12,primary,fetched,"CSV + metadata in data/raw/owid (CC BY). 22 economies, 2014-2025; Thailand not covered. Lightcast last updated 2026-04-20 per OWID. 11 economies' 2025 values match AI Index Figure 4.4.2 labels."
+ecb_fx,ECB euro foreign exchange reference rates,https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml,2026-10-12,primary,fetched,"Rates dated 2026-10-09. Reference rates, cross-computed to USD."

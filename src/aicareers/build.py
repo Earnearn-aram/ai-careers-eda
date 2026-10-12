@@ -3,10 +3,11 @@ from __future__ import annotations
 
 import csv
 import json
+from datetime import date
 from pathlib import Path
 
-from . import pages
-from .ingest import indeed, seed
+from . import fx, pages
+from .ingest import indeed, levels, owid, seed, verified
 from .schema import Observation, Source
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -18,7 +19,12 @@ def load_sources(path: Path = ROOT / "data" / "sources.csv") -> list[Source]:
 
 
 def collect() -> list[Observation]:
-    return indeed.load(ROOT / "data" / "raw" / "indeed_ai_tracker") + seed.load()
+    raw = ROOT / "data" / "raw"
+    return (indeed.load(raw / "indeed_ai_tracker")
+            + owid.load(raw / "owid" / "share-ai-job-postings.csv", date(2026, 10, 12))
+            + verified.load()
+            + levels.load(ROOT / "data" / "processed" / "levels_extract.csv")
+            + seed.load())
 
 
 def main() -> None:
@@ -35,6 +41,9 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     (out / "observations.json").write_text(json.dumps([json.loads(o.model_dump_json()) for o in obs], indent=1))
     (out / "sources.json").write_text(json.dumps([json.loads(s.model_dump_json()) for s in sources], indent=1))
+
+    rates = fx.from_ecb_xml(ROOT / "data" / "raw" / "ecb" / "eurofxref-daily.xml")
+    (out / "fx.json").write_text(json.dumps({c: json.loads(r.model_dump_json()) for c, r in rates.items()}, indent=1))
 
     proc = ROOT / "data" / "processed"
     with (proc / "observations.csv").open("w", newline="") as f:

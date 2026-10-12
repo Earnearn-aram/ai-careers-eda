@@ -11,11 +11,11 @@
  {
   "id": "stanford_ai_index_2026",
   "name": "Stanford AI Index 2026 (Lightcast data)",
-  "url": "https://hai.stanford.edu/ai-index",
-  "retrieved_on": null,
+  "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "Host not reachable from build environment. Figures held as confidence C via Lightcast blog/search summaries."
+  "status": "fetched",
+  "notes": "Full report PDF (hai.stanford.edu/assets/files/ai_index_report_2026.pdf) fetched and text-extracted; not redistributed (see data/raw/MANIFEST.csv). Used: section 4.4 Jobs (skill counts, Figure 4.4.2 country shares), Appendix (AI skill definition: 300+ skills, 10 clusters, text match)."
  },
  {
   "id": "stanford_ai_index_2025",
@@ -39,10 +39,10 @@
   "id": "lightcast_blog_ai_index_2026",
   "name": "Lightcast blog: Four Takeaways from the 2026 Stanford AI Index",
   "url": "https://lightcast.io/resources/blog/stanford-ai-2026",
-  "retrieved_on": null,
-  "tier": "secondary",
-  "status": "unreachable",
-  "notes": "Seen only as a search-result summary on 2026-10-12; page not read."
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Lightcast (the data owner) blog, read in full 2026-10-12: US 2.5% (+55% YoY), agentic cluster 0.06% to 0.23%, SG 4.769%. Page itself uses 'mention' and 'requiring' interchangeably."
  },
  {
   "id": "indeed_hiringlab_articles",
@@ -51,25 +51,25 @@
   "retrieved_on": null,
   "tier": "primary",
   "status": "unreachable",
-  "notes": "Host not reachable; try Wayback."
+  "notes": "www.hiringlab.org redirects to hiringlab.indeed.com, which the egress proxy blocks. Add that host to Allowed domains."
  },
  {
   "id": "stanford_del_canaries",
   "name": "Stanford Digital Economy Lab: Canaries in the Coal Mine? (rev. 12 Aug 2026)",
   "url": "https://digitaleconomy.stanford.edu/",
-  "retrieved_on": null,
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "Not reachable. 19% vs 13%/15% prior figure unresolved."
+  "status": "fetched",
+  "notes": "Publication page and Aug 2026 PDF fetched. 19% (June 2026) and 15% (July 2025) are the descriptive shortfall; 13%/16% were earlier regression headlines. ADP payroll, US only, descriptive."
  },
  {
   "id": "levels_fyi",
   "name": "Levels.fyi (AI Engineer / ML / DS / DE / DA by country)",
   "url": "https://www.levels.fyi/",
-  "retrieved_on": null,
+  "retrieved_on": "2026-10-12",
   "tier": "primary",
-  "status": "unreachable",
-  "notes": "Self-reported; big-tech skew. Record n and last-updated on each page."
+  "status": "fetched",
+  "notes": ".md summary routes per levels.fyi robots.txt/llms.txt. Role+country pages exist only for some combinations; Thailand only for generic Software Engineer. Title+country pages carry a wrong header (Location: United States), so region is inferred from the requested URL and rows are confidence C. Raw files not redistributed (Levels.fyi Data License); attribution: 'Data source: Levels.fyi'."
  },
  {
   "id": "eri_salaryexpert",
@@ -114,7 +114,7 @@
   "retrieved_on": null,
   "tier": "primary",
   "status": "unreachable",
-  "notes": ""
+  "notes": "www.bls.gov returns 403 to the build environment."
  },
  {
   "id": "jobsdb_th",
@@ -123,7 +123,7 @@
   "retrieved_on": null,
   "tier": "primary",
   "status": "unreachable",
-  "notes": "Snapshot counts, query-dependent; manual log only, see data/processed/thailand_jobsdb_snapshots.csv."
+  "notes": "th.jobsdb.com returns 403; counts must be read manually. Snapshot log: data/processed/thailand_jobsdb_snapshots.csv."
  },
  {
   "id": "aws_summit_bkk_2026",
@@ -160,5 +160,23 @@
   "tier": "secondary",
   "status": "fetched",
   "notes": "Unverified starting points. Used only as confidence C."
+ },
+ {
+  "id": "owid_lightcast_ai_index_2026",
+  "name": "Our World in Data: Share of AI jobs among all job postings (Lightcast via AI Index 2026)",
+  "url": "https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "CSV + metadata in data/raw/owid (CC BY). 22 economies, 2014-2025; Thailand not covered. Lightcast last updated 2026-04-20 per OWID. 11 economies' 2025 values match AI Index Figure 4.4.2 labels."
+ },
+ {
+  "id": "ecb_fx",
+  "name": "ECB euro foreign exchange reference rates",
+  "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Rates dated 2026-10-09. Reference rates, cross-computed to USD."
  }
 ]

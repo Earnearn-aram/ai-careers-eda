@@ -2,3 +2,9 @@ __pycache__/
 .venv/
 *.pyc
 .pytest_cache/
+
+# third-party raw downloads: not redistributed (size / licence). See data/raw/MANIFEST.csv to re-fetch and check hashes.
+data/raw/ai_index/
+data/raw/lightcast/
+data/raw/stanford_del/
+data/raw/levels/
