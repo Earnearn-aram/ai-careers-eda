@@ -1,0 +1,236 @@
+[
+ {
+  "id": "indeed_ai_tracker",
+  "name": "Indeed Hiring Lab AI Tracker (CSV)",
+  "url": "https://github.com/hiring-lab/ai-tracker",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0. Series is revised between vintages (Jan 2026 article: 4.2% high for Dec 2025; Oct 2026 CSV: 4.44% on 31 Dec 2025)."
+ },
+ {
+  "id": "stanford_ai_index_2026",
+  "name": "Stanford AI Index 2026 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Full report PDF (hai.stanford.edu/assets/files/ai_index_report_2026.pdf) fetched and text-extracted; not redistributed (see data/raw/MANIFEST.csv). Used: section 4.4 Jobs (skill counts, Figure 4.4.2 country shares), Appendix (AI skill definition: 300+ skills, 10 clusters, text match)."
+ },
+ {
+  "id": "stanford_ai_index_2025",
+  "name": "Stanford AI Index 2025 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Not reachable."
+ },
+ {
+  "id": "stanford_ai_index_2024",
+  "name": "Stanford AI Index 2024 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "pending",
+  "notes": "Needed for 2023 baseline."
+ },
+ {
+  "id": "lightcast_blog_ai_index_2026",
+  "name": "Lightcast blog: Four Takeaways from the 2026 Stanford AI Index",
+  "url": "https://lightcast.io/resources/blog/stanford-ai-2026",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Lightcast (the data owner) blog, read in full 2026-10-12: US 2.5% (+55% YoY), agentic cluster 0.06% to 0.23%, SG 4.769%. Page itself uses 'mention' and 'requiring' interchangeably."
+ },
+ {
+  "id": "indeed_hiringlab_articles",
+  "name": "Indeed Hiring Lab articles (Jan-Sep 2026)",
+  "url": "https://hiringlab.indeed.com/",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "www.hiringlab.org redirects to hiringlab.indeed.com. robots.txt allows crawling with Crawl-delay 10 (followed). Read in full: 8 Jul 2026 x2, 23 Jul 2026 x2, 22 Jan 2026, 17 Sep 2026. US-centric; Europe only in the AI-titles article; no Thailand/Singapore. Raw HTML not committed; see MANIFEST.csv."
+ },
+ {
+  "id": "stanford_del_canaries",
+  "name": "Stanford Digital Economy Lab: Canaries in the Coal Mine? (rev. 12 Aug 2026)",
+  "url": "https://digitaleconomy.stanford.edu/",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Publication page and Aug 2026 PDF fetched. 19% (June 2026) and 15% (July 2025) are the descriptive shortfall; 13%/16% were earlier regression headlines. ADP payroll, US only, descriptive."
+ },
+ {
+  "id": "levels_fyi",
+  "name": "Levels.fyi (AI Engineer / ML / DS / DE / DA by country)",
+  "url": "https://www.levels.fyi/",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": ".md summary routes per levels.fyi robots.txt/llms.txt. Role+country pages exist only for some combinations; Thailand only for generic Software Engineer. Title+country pages carry a wrong header (Location: United States), so region is inferred from the requested URL and rows are confidence C. Raw files not redistributed (Levels.fyi Data License); attribution: 'Data source: Levels.fyi'."
+ },
+ {
+  "id": "eri_salaryexpert",
+  "name": "ERI SalaryExpert",
+  "url": "https://www.salaryexpert.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Estimate model."
+ },
+ {
+  "id": "evantis_th_2026",
+  "name": "Evantis Thailand Salary Guide 2026",
+  "url": "https://www.evantis.co.th/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Recruiter-estimated monthly base."
+ },
+ {
+  "id": "morgan_mckinley_sg",
+  "name": "Morgan McKinley Singapore salary guide",
+  "url": "https://www.morganmckinley.com/sg",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": ""
+ },
+ {
+  "id": "robert_walters",
+  "name": "Robert Walters SG/TH salary survey",
+  "url": "https://www.robertwalters.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Salary survey is gated behind a request form (free). Singapore bands seen only via secondary. Hiring-guide blog pages (robertwalters.co.th) blocked from the build environment."
+ },
+ {
+  "id": "bls_oews",
+  "name": "BLS OEWS",
+  "url": "https://www.bls.gov/oes/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "www.bls.gov returns 403 to the build environment."
+ },
+ {
+  "id": "jobsdb_th",
+  "name": "JobsDB Thailand search result counts",
+  "url": "https://th.jobsdb.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "th.jobsdb.com returns 403; counts must be read manually. Snapshot log: data/processed/thailand_jobsdb_snapshots.csv."
+ },
+ {
+  "id": "aws_summit_bkk_2026",
+  "name": "AWS Summit Bangkok 2026 (via secondary)",
+  "url": "https://aws.amazon.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Talent shortage 51%."
+ },
+ {
+  "id": "alibaba_nielseniq_apac",
+  "name": "Alibaba Cloud / NielsenIQ APAC AI survey (via secondary)",
+  "url": "https://www.alibabacloud.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": ""
+ },
+ {
+  "id": "predictleads_eu_ai",
+  "name": "PredictLeads Europe AI engineering postings",
+  "url": "https://predictleads.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Vendor data."
+ },
+ {
+  "id": "plan_seed_2026_10_12",
+  "name": "Seed figures in PLAN.md (first research pass 12 Oct 2026)",
+  "url": "PLAN.md",
+  "retrieved_on": "2026-10-12",
+  "tier": "secondary",
+  "status": "fetched",
+  "notes": "Unverified starting points. Used only as confidence C."
+ },
+ {
+  "id": "owid_lightcast_ai_index_2026",
+  "name": "Our World in Data: Share of AI jobs among all job postings (Lightcast via AI Index 2026)",
+  "url": "https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "CSV + metadata in data/raw/owid (CC BY). 22 economies, 2014-2025; Thailand not covered. Lightcast last updated 2026-04-20 per OWID. 11 economies' 2025 values match AI Index Figure 4.4.2 labels."
+ },
+ {
+  "id": "ecb_fx",
+  "name": "ECB euro foreign exchange reference rates",
+  "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Rates dated 2026-10-09. Reference rates, cross-computed to USD."
+ },
+ {
+  "id": "robert_walters_th_2026",
+  "name": "Robert Walters Thailand salary survey / hiring guides 2026",
+  "url": "https://www.robertwalters.co.th/our-services/salary-survey.html",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "Public pages read (hiring guides; robots permit). Salary-calculator results for Bangkok / Tech & Transformation / AI / AI Engineer printed to PDF by the project owner on 2026-10-12 13:38 UTC and added to the repo (data/raw/rw_survey/). Shows 10 of 82 entries for the filter (10 captured, incl. the 4 AI-group roles), 2025 and 2026 annual base ranges, plus survey headline stats. Figures are basic salaries excluding benefits and bonuses. The full survey remains form-gated. The 'over 67%' skills-shortage figure is not on these pages and stays unverified."
+ },
+ {
+  "id": "michaelpage_th",
+  "name": "Michael Page Thailand (salary guide, job listings)",
+  "url": "https://www.michaelpage.co.th/",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "michaelpage.co.th reachable. Read: 'Highest-paying jobs in Thailand: Top 10 in 2026' (based on its 2026 Salary Guide, monthly higher-range salaries). Salary guide itself is a form-gated download. The ML Engineer listing seen via search no longer exists (jobs/machine-learning returns no results on 2026-10-12)."
+ },
+ {
+  "id": "monroe_th_2026",
+  "name": "Monroe Consulting Thailand Salary Guide and Talent Market Report 2026",
+  "url": "https://www.monroeconsulting.com/thailand-salary-guide-and-talent-market-report-2026",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Not yet read."
+ },
+ {
+  "id": "adecco_th_2025",
+  "name": "Adecco Thailand Salary Guide 2025",
+  "url": "https://prd.adecco.co.th/salary-guide/download-file?year=2025",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Has an IT section; not yet read."
+ },
+ {
+  "id": "depa_digital_survey_2025",
+  "name": "DEPA digital industry workforce survey 2025 (via Thairath Online)",
+  "url": "https://en.thairath.co.th/news/politic/2958291",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Figures seen via search summary of the Thairath article (release date 8 Sep 2026 per that summary, not confirmed on DEPA's site). Find the DEPA report itself. depa.or.th is reachable; its service-statistics/survey-report page is the satisfaction survey, not the workforce survey. DEPA workforce report not located."
+ },
+ {
+  "id": "tdri_ai_labour_2025",
+  "name": "TDRI report on the 2025 AI labour market (via aitif.bde.go.th)",
+  "url": "https://aitif.bde.go.th/?p=33350",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Undated Thai government page citing TDRI; seen only via search summary. Definitions unknown; 37% figure is far above Lightcast/Indeed shares and not comparable."
+ }
+]

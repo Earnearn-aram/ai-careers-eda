@@ -1,0 +1,13 @@
+page_url,role,region,region_basis,currency,median,p25,p75,p90,n,last_updated,generated,retrieved_on
+https://www.levels.fyi/t/data-analyst,Data Analyst,United States,page,USD,110000.0,85000.0,145000.0,187000.0,1026,"October 11, 2026",2026-10-11T16:07:02.136Z,2026-10-12
+https://www.levels.fyi/t/data-analyst/locations/germany,Data Analyst,Germany,page,EUR,73209.0,63300.0,84539.0,106743.0,69,"October 12, 2026",2026-10-12T12:56:43.067Z,2026-10-12
+https://www.levels.fyi/t/data-scientist,Data Scientist,United States,page,USD,180000.0,135000.0,250800.0,340000.0,3349,"October 12, 2026",2026-10-12T07:55:14.231Z,2026-10-12
+https://www.levels.fyi/t/data-scientist/locations/germany,Data Scientist,Germany,page,EUR,77554.0,63359.0,100715.0,121976.0,207,"October 11, 2026",2026-10-11T02:05:56.450Z,2026-10-12
+https://www.levels.fyi/t/data-scientist/locations/singapore,Data Scientist,Singapore,page,SGD,120898.0,91287.0,162111.0,205377.0,129,"October 12, 2026",2026-10-12T05:24:16.783Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/ai-engineer,AI Engineer,United States,page,USD,151000.0,109500.0,211250.0,278900.0,331,"October 11, 2026",2026-10-11T16:52:28.737Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/ai-engineer,AI Engineer,Germany,request_url,EUR,81054.0,70523.0,99899.0,124803.0,52,"October 12, 2026",2026-10-12T06:03:35.409Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/data-engineer,Data Engineer,United States,page,USD,157300.0,115500.0,225000.0,315000.0,1202,"October 11, 2026",2026-10-11T16:22:33.517Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer,Machine Learning Engineer,United States,page,USD,280000.0,200000.0,386000.0,495000.0,1060,"October 11, 2026",2026-10-11T22:38:55.936Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer,Machine Learning Engineer,Germany,request_url,EUR,89013.0,72428.0,106858.0,141465.0,67,"October 12, 2026",2026-10-12T03:38:03.141Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/title/machine-learning-engineer,Machine Learning Engineer,Singapore,request_url,SGD,141805.0,108603.0,178876.0,207048.0,38,"October 11, 2026",2026-10-11T10:29:07.068Z,2026-10-12
+https://www.levels.fyi/t/software-engineer/locations/thailand,Software Engineer,Thailand,page,THB,939716.0,588401.0,1898552.0,2687877.0,273,"October 11, 2026",2026-10-11T21:53:57.049Z,2026-10-12

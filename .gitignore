@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+
+# third-party raw downloads: not redistributed (size / licence). See data/raw/MANIFEST.csv to re-fetch and check hashes.
+data/raw/ai_index/
+data/raw/lightcast/
+data/raw/stanford_del/
+data/raw/levels/
+data/raw/hiringlab/
+data/raw/th_recruiters/
+data/raw/depa/
+data/raw/rw_survey/rw.txt
+data/raw/rw_survey/
