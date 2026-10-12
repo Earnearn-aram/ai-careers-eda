@@ -6,7 +6,7 @@ An exploratory, neutral, source-traceable look at how AI-related careers changed
 
 | Piece | State |
 |---|---|
-| Schema, build, tests (16), static site | Working |
+| Schema, build, tests (19), static site | Working |
 | Indeed AI Tracker (9 countries, no TH/SG) | Fetched from primary, confidence A |
 | Lightcast AI-skill share, 22 economies, 2023-2025 (Thailand not covered) | Via Our World in Data CSV of AI Index 2026; spot-checked against the report PDF; confidence B |
 | US skill counts (RAG, agents, ...), 2024 vs 2025 | From the AI Index 2026 PDF; confidence A |
@@ -16,7 +16,8 @@ An exploratory, neutral, source-traceable look at how AI-related careers changed
 | Indeed Hiring Lab articles (6 read: seniority, AI-titled roles, software postings, advertised pay; US, Europe for titles only) | Fetched from `hiringlab.indeed.com` (crawl-delay respected); confidence A |
 | Not reachable | BLS (403), JobsDB (403), Wayback |
 | Thailand | Page limited to what exists: Levels.fyi generic Software Engineer pay, Michael Page 2026 top-10 page, Robert Walters hiring guides (recruiter statements, increment ranges). Role-level Thai pay and demand are unverified (confidence C). Both recruiters' salary surveys are form-gated; most other Thai hosts are blocked; JobsDB returns 403. JobsDB log is empty |
-| Role pages | Pay where data exists; other lenses state "no data collected" |
+| Role pages | Built from the evidence held: pay and, for data roles, the AI-mention share; skills for AI/ML roles (all US AI postings, not role-specific). Roles with no data (MLOps pay, AI research, AI PM, forward deployed) say so |
+| QA | See [docs/QA_CHECKLIST.md](docs/QA_CHECKLIST.md) (Wayback archiving not done; second framing pass should be repeated by a human) |
 
 Raw files from third parties are not committed; `data/raw/MANIFEST.csv` lists URL, date and sha256, and `scripts/fetch_raw.sh` re-fetches and compares.
 

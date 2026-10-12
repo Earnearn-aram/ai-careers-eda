@@ -131,15 +131,34 @@ def thailand(obs: list[Observation]) -> str:
 <p class="gap">Not available: Thai openings by role over time, Thai skill requirements, Thai entry-level evidence, any Thai pay trend.</p>''')
 
 
+SKILL_ROLES = {"ai-engineer", "ml-engineer", "mlops"}
+DATA_ROLES = {"data-scientist", "data-analyst", "data-engineer"}
+
+
 def role(slug: str, name: str, obs: list[Observation]) -> str:
-    mine = [o for o in obs if o.role == ROLE_NAME.get(slug)]
-    pay = chart("pay", role=ROLE_NAME[slug], title=f"{name}: pay observations", sub="Local currency; sources shown separately.", name=f"pay_{slug}") if mine else '<p class="gap">No pay observations collected for this role yet.</p>'
+    rn = ROLE_NAME.get(slug)
+    mine = [o for o in obs if rn and o.role == rn]
+    shared: list[Observation] = []
+    openings = '<p class="gap">No role-level openings series was collected. The country-level series on the <a href="../index.html">overview</a> are not specific to this role.</p>'
+    req = '<p class="gap">No verified skill-shift data was collected for this role.</p>'
+    if slug in DATA_ROLES:
+        shared = [o for o in obs if o.metric == "ai_keyword_share_by_occupation"]
+        openings = ('<p>Not a role-level openings series. Indeed Hiring Lab reported the share of US postings in broad occupation groups that mention AI terms, as of December 2025 (January 2026 article). Data and analytics sits well above the other groups shown. A mention does not mean the job requires AI work, and the figure is a share of postings, not a count of openings. Only one date is available, so there is no trend.</p>'
+                    + chart("bars", metric="ai_keyword_share_by_occupation", group="segment", title="US postings mentioning AI terms, by occupation group, December 2025", sub="Unit: % of postings in the group. Indeed Hiring Lab, 22 Jan 2026 (a different vintage and definition from the AI Tracker CSV; do not compare with it).", name=f"ai_mentions_{slug}"))
+    if slug in SKILL_ROLES:
+        shared = [o for o in obs if o.metric == "ai_skill_postings_count"]
+        req = ('<p>Not role-specific. These are skills listed across all US AI-skill postings (Lightcast, AI Index 2026), the closest available evidence for roles that build with these tools. Counts for 2024 and 2025 only; there is no 2023 baseline in the sources read.</p>'
+               + chart("bars", metric="ai_skill_postings_count", group="skill", title="US AI job postings listing each skill, 2024 vs 2025", sub="Unit: postings (count). A posting can list several skills.", name=f"skills_{slug}"))
+    pay = chart("pay", role=rn, title=f"{name}: pay observations", sub="Local currency; USD at the stated ECB rate; sources shown separately.", name=f"pay_{slug}") if mine else '<p class="gap">No pay observations were collected for this role.</p>'
+    ids = sorted({o.id for o in mine + shared})
+    ev = f'<h2>Evidence on this page</h2><p class="sub">Observation ids (in <a href="../data/observations.json">observations.json</a>): {escape(", ".join(ids)) if ids else "none"}.</p>'
     return shell(name, f'''<h1>{escape(name)}</h1>
-<p>Built from collected observations only. Each lens below says what exists and what does not.</p>
-<h2>Openings</h2><p class="gap">No role-level openings series collected. Country-level AI keyword share is on the <a href="../index.html">overview</a>; it is not specific to this role.</p>
-<h2>Requirements and skills</h2><p class="gap">No verified skill-shift data collected for this role.</p>
+<p>Built only from collected observations. Each lens says what exists and what does not. Pay is one source among several and skews high for big-tech roles; Levels.fyi in particular is self-reported.</p>
+<h2>Openings</h2>{openings}
+<h2>Requirements and skills</h2>{req}
 <h2>Pay</h2>{pay}
-<h2>Entry level vs senior</h2><p class="gap">No role-level evidence collected.</p>''', depth=1)
+<h2>Entry level vs senior</h2><p class="gap">No role-level evidence was collected. The US-wide seniority and entry-level evidence is on the <a href="../index.html#entry">overview</a>; it is not specific to this role.</p>
+{ev}''', depth=1)
 
 
 def write_all(obs: list[Observation], site: Path) -> None:
