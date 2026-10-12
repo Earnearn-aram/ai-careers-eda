@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Overview | AI careers EDA</title><link rel="stylesheet" href="style.css"></head><body>
+<header><nav><a href="index.html">Overview</a><a href="compare.html">Thailand vs world</a><a href="index.html#roles">Roles</a><a href="index.html#limits">Method and limits</a><a href="index.html#sources">Sources</a></nav><div class="banner"><strong>Exploratory.</strong> Not financial or career advice. Thai data is limited. Figures marked confidence C are hidden unless you tick the box below.</div><label class="ctl"><input type="checkbox" id="incl-c"> include confidence C (secondary or unverified) figures</label></header>
+<main><h1>AI-related careers, late 2023 to Oct 2026</h1>
+<p>An exploratory, source-traceable look at how AI-related careers changed, comparing Thailand with the US, Europe and Singapore/APAC. It starts from no hypothesis and reports what each source says, including where sources disagree or where there is no data.</p>
+<h2>Demand: Indeed AI keyword share</h2>
+<p>This is the only series so far fetched from its primary source. It measures the share of Indeed job postings whose text contains AI keywords (for example "Machine Learning", "Data Science", "Artificial Intelligence"). It covers nine countries. <strong>Thailand, Singapore and other APAC markets are not in the dataset.</strong> A keyword match does not mean the job requires AI skills, and it counts titles that were relabelled as well as new demand.</p>
+<div data-chart="timeseries" data-metric="ai_keyword_share" data-regions="US,GB,DE,FR,NL,IE,IT,AU,CA" data-title="Indeed: share of job postings with AI keywords, monthly mean of daily values" data-sub="Unit: % of postings. Oct 2023 to Sep 2026. Source: Indeed Hiring Lab AI Tracker (CC BY 4.0)." data-name="indeed_ai_keyword_share"></div>
+<table><thead><tr><th>Country</th><th>2023-10</th><th>2026-09</th><th>Observation ids</th></tr></thead><tbody><tr><td>AU</td><td>2.19%</td><td>7.29%</td><td>indeed-ai-AU-2023-10, indeed-ai-AU-2026-09</td></tr><tr><td>CA</td><td>2.09%</td><td>18.39%</td><td>indeed-ai-CA-2023-10, indeed-ai-CA-2026-09</td></tr><tr><td>DE</td><td>2.04%</td><td>5.73%</td><td>indeed-ai-DE-2023-10, indeed-ai-DE-2026-09</td></tr><tr><td>FR</td><td>1.76%</td><td>4.24%</td><td>indeed-ai-FR-2023-10, indeed-ai-FR-2026-09</td></tr><tr><td>GB</td><td>1.84%</td><td>9.83%</td><td>indeed-ai-GB-2023-10, indeed-ai-GB-2026-09</td></tr><tr><td>IE</td><td>3.84%</td><td>15.03%</td><td>indeed-ai-IE-2023-10, indeed-ai-IE-2026-09</td></tr><tr><td>IT</td><td>2.41%</td><td>4.86%</td><td>indeed-ai-IT-2023-10, indeed-ai-IT-2026-09</td></tr><tr><td>NL</td><td>1.91%</td><td>3.56%</td><td>indeed-ai-NL-2023-10, indeed-ai-NL-2026-09</td></tr><tr><td>US</td><td>1.84%</td><td>7.15%</td><td>indeed-ai-US-2023-10, indeed-ai-US-2026-09</td></tr></tbody></table>
+<p class="sub">Start and end points of the series for each country (monthly mean of 7-day trailing daily values; our aggregation). The series rises in every covered country over the window; the data cannot say how much is new demand and how much is changed wording.</p>
+<h2>Demand: share of postings requiring an AI skill (Lightcast / Stanford AI Index)</h2>
+<p>A different metric from the one above (a posting must <em>require</em> an AI skill). Not plotted on the same axis. These figures are currently secondary or unverified, so they are hidden unless you tick the confidence C box.</p>
+<div data-chart="bars" data-metric="ai_skill_share" data-title="Lightcast: share of postings requiring at least one AI skill" data-sub="Unit: % of postings. Annual. Missing country-years are gaps, not zeros." data-name="lightcast_ai_skill_share"></div>
+<h2>Pay</h2>
+<p>Pay figures are self-reported (Levels.fyi, skewed towards big tech), recruiter-estimated, or modelled. Sources are shown side by side and never merged or converted. No FX rate has been retrieved yet, so there is no USD conversion. There is no reliable 2023 to 2026 pay trend in the data collected so far.</p>
+<div data-chart="pay" data-title="Pay observations by source (local currency, annual unless the definition says monthly)" data-sub="2026 cross-section only." data-name="pay_all"></div>
+<h2 id="entry">Entry level vs senior</h2>
+<p>The evidence collected is US only and descriptive (Stanford Digital Economy Lab, ADP payroll data). Currently unverified, so confidence C.</p>
+<div data-chart="bars" data-metric="employment_gap_age22_25" data-title="Employment of 22-25 year-olds in highly AI-exposed occupations relative to less-exposed peers" data-sub="Unit: % difference. US only. Descriptive, not causal." data-name="entry_level"></div>
+<h2 id="roles">Role deep-dives</h2><ul><li><a href="roles/ai-engineer.html">AI / LLM / Applied AI Engineer</a></li><li><a href="roles/ml-engineer.html">Machine Learning Engineer</a></li><li><a href="roles/data-scientist.html">Data Scientist</a></li><li><a href="roles/data-analyst.html">Data Analyst / BI</a></li><li><a href="roles/data-engineer.html">Data Engineer</a></li><li><a href="roles/mlops.html">MLOps / LLMOps / AI Platform</a></li><li><a href="roles/ai-research.html">AI Research / Applied Scientist</a></li><li><a href="roles/ai-pm.html">AI Product Manager</a></li><li><a href="roles/forward-deployed.html">Forward Deployed / Solutions Engineer (AI)</a></li></ul>
+<h2 id="verification">Verification log</h2>
+<ul>
+<li><strong>Indeed US peak.</strong> A starting note said the US share peaked at 4.2% in December 2025. The current primary CSV shows December 2025 at 4.38% (monthly mean) and values continuing to rise to 2026-09. The CSV is used; the earlier note is not.</li>
+<li><strong>Indeed Q1 2026 Europe.</strong> A starting note (via a secondary blog) gave Germany 4.2%, France 3.3%, UK 2.7%, Netherlands 2.2%. The current CSV gives roughly 4.4%, 3.5%, 7.3% and 2.8% for the Q1 2026 mean. The UK figure differs most. The reason is not established (an earlier data vintage, a different metric, or a misquote); the secondary figures are not used.</li>
+<li><strong>Not reachable from the build environment:</strong> Stanford AI Index, Levels.fyi, Indeed Hiring Lab articles, Stanford Digital Economy Lab, BLS, Wayback, JobsDB. Figures from these are carried as confidence C until the primary page is read. Re-run fetching from an environment with open network access.</li>
+<li><strong>Indeed GenAI series.</strong> The tracker README lists GenAI_posting.csv, but that file returns 404 (retrieved 2026-10-12).</li>
+</ul>
+<h2 id="limits">Method and limits</h2>
+<ul>
+<li>Every number is an observation with source, retrieval date, definition, confidence (A primary and method documented; B primary but self-reported or small sample; C secondary or unverified) and an estimate flag.</li>
+<li>Metrics with different definitions are never plotted together. Missing years or regions are left as gaps.</li>
+<li>Pay: self-reporting and survivorship bias, big-tech skew, ambiguous titles (the same title covers different jobs), recruiter figures are indicative.</li>
+<li>Postings: duplicates and ghost jobs inflate counts; keyword matching is not skill requirement.</li>
+<li>Entry-level evidence is US-centric. Thai data is thin: no Thai series in the Indeed tracker, and Thai posting counts depend on the exact search query and date.</li>
+<li>Currency: no conversion until an FX rate with date and source is recorded.</li>
+</ul>
+<h2>How to contribute data or corrections</h2>
+<p>Open an issue with the figure, the primary URL, the retrieval date and the exact definition. Corrections to anything on these pages are welcome.</p>
+<h2 id="sources">Source list</h2><div data-chart="sources" ></div></main><footer><p class="sub">No tracking, no third-party requests. Data: <a href="data/observations.json">observations.json</a>. Issues and corrections welcome on the repository.</p></footer>
+<script src="app.js"></script></body></html>

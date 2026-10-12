@@ -1,0 +1,164 @@
+[
+ {
+  "id": "indeed_ai_tracker",
+  "name": "Indeed Hiring Lab AI Tracker (CSV)",
+  "url": "https://github.com/hiring-lab/ai-tracker",
+  "retrieved_on": "2026-10-12",
+  "tier": "primary",
+  "status": "fetched",
+  "notes": "AI_posting.csv only; GenAI_posting.csv listed in README returns 404. Countries: AU CA DE FR GB IE IT NL US. No TH/SG/APAC. CC BY 4.0."
+ },
+ {
+  "id": "stanford_ai_index_2026",
+  "name": "Stanford AI Index 2026 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host not reachable from build environment. Figures held as confidence C via Lightcast blog/search summaries."
+ },
+ {
+  "id": "stanford_ai_index_2025",
+  "name": "Stanford AI Index 2025 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Not reachable."
+ },
+ {
+  "id": "stanford_ai_index_2024",
+  "name": "Stanford AI Index 2024 (Lightcast data)",
+  "url": "https://hai.stanford.edu/ai-index",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "pending",
+  "notes": "Needed for 2023 baseline."
+ },
+ {
+  "id": "lightcast_blog_ai_index_2026",
+  "name": "Lightcast blog: Four Takeaways from the 2026 Stanford AI Index",
+  "url": "https://lightcast.io/resources/blog/stanford-ai-2026",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Seen only as a search-result summary on 2026-10-12; page not read."
+ },
+ {
+  "id": "indeed_hiringlab_articles",
+  "name": "Indeed Hiring Lab articles (8 Jul 2026 software dev)",
+  "url": "https://www.hiringlab.org/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host not reachable; try Wayback."
+ },
+ {
+  "id": "stanford_del_canaries",
+  "name": "Stanford Digital Economy Lab: Canaries in the Coal Mine? (rev. 12 Aug 2026)",
+  "url": "https://digitaleconomy.stanford.edu/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Not reachable. 19% vs 13%/15% prior figure unresolved."
+ },
+ {
+  "id": "levels_fyi",
+  "name": "Levels.fyi (AI Engineer / ML / DS / DE / DA by country)",
+  "url": "https://www.levels.fyi/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Self-reported; big-tech skew. Record n and last-updated on each page."
+ },
+ {
+  "id": "eri_salaryexpert",
+  "name": "ERI SalaryExpert",
+  "url": "https://www.salaryexpert.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Estimate model."
+ },
+ {
+  "id": "evantis_th_2026",
+  "name": "Evantis Thailand Salary Guide 2026",
+  "url": "https://www.evantis.co.th/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Recruiter-estimated monthly base."
+ },
+ {
+  "id": "morgan_mckinley_sg",
+  "name": "Morgan McKinley Singapore salary guide",
+  "url": "https://www.morganmckinley.com/sg",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": ""
+ },
+ {
+  "id": "robert_walters",
+  "name": "Robert Walters SG/TH salary survey",
+  "url": "https://www.robertwalters.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Singapore bands seen only via secondary."
+ },
+ {
+  "id": "bls_oews",
+  "name": "BLS OEWS",
+  "url": "https://www.bls.gov/oes/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": ""
+ },
+ {
+  "id": "jobsdb_th",
+  "name": "JobsDB Thailand search result counts",
+  "url": "https://th.jobsdb.com/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Snapshot counts, query-dependent; manual log only, see data/processed/thailand_jobsdb_snapshots.csv."
+ },
+ {
+  "id": "aws_summit_bkk_2026",
+  "name": "AWS Summit Bangkok 2026 (via secondary)",
+  "url": "https://aws.amazon.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Talent shortage 51%."
+ },
+ {
+  "id": "alibaba_nielseniq_apac",
+  "name": "Alibaba Cloud / NielsenIQ APAC AI survey (via secondary)",
+  "url": "https://www.alibabacloud.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": ""
+ },
+ {
+  "id": "predictleads_eu_ai",
+  "name": "PredictLeads Europe AI engineering postings",
+  "url": "https://predictleads.com/",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Vendor data."
+ },
+ {
+  "id": "plan_seed_2026_10_12",
+  "name": "Seed figures in PLAN.md (first research pass 12 Oct 2026)",
+  "url": "PLAN.md",
+  "retrieved_on": "2026-10-12",
+  "tier": "secondary",
+  "status": "fetched",
+  "notes": "Unverified starting points. Used only as confidence C."
+ }
+]

@@ -1,0 +1,22 @@
+[project]
+name = "aicareers"
+version = "0.1.0"
+description = "Exploratory, source-traceable look at AI-related careers, Thailand vs the world (Q4 2023 - Oct 2026)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.7"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[project.scripts]
+aicareers-build = "aicareers.build:main"
+aicareers-log-snapshot = "aicareers.snapshot:main"
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
