@@ -51,7 +51,7 @@ class Observation(BaseModel):
     @field_validator("period")
     @classmethod
     def _period(cls, v: str) -> str:
-        if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?|-Q[1-4])?", v):
+        if not re.fullmatch(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?|-Q[1-4])?", v):
             raise ValueError(f"bad period {v!r}")
         return v
 

@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 
 from . import fx, pages
-from .ingest import indeed, levels, owid, seed, verified
+from .ingest import indeed, levels, manual, owid, seed, verified
 from .schema import Observation, Source
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -24,6 +24,7 @@ def collect() -> list[Observation]:
             + owid.load(raw / "owid" / "share-ai-job-postings.csv", date(2026, 10, 12))
             + verified.load()
             + levels.load(ROOT / "data" / "processed" / "levels_extract.csv")
+            + manual.load(ROOT / "data" / "manual")
             + seed.load())
 
 

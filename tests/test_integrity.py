@@ -117,3 +117,26 @@ def test_site_prose_uses_neutral_words():
     banned = re.compile(r"\b(boom\w*|collaps\w*|crisis|plummet\w*|skyrocket\w*)\b", re.I)
     for f in (ROOT / "site").rglob("*.html"):
         assert not banned.search(f.read_text()), f
+
+
+def test_manual_loader_validates(tmp_path):
+    from aicareers.ingest import manual
+    hdr = "id,metric,role,region,period,value,unit,source_id,retrieved_on,definition,confidence,is_estimate,sample_size,notes\n"
+    (tmp_path / "a.csv").write_text(hdr + "t1,salary_median_total,Data Scientist,TH,2026,\"1,000,000\",THB,levels_fyi,2026-10-12,Median total comp,B,false,12,page 3\n")
+    o = manual.load(tmp_path)
+    assert o[0].value == 1_000_000 and o[0].small_n
+    (tmp_path / "b.csv").write_text(hdr + "t2,m,all,TH,2026-13,1,%,s,2026-10-12,d,B,false,,\n")
+    with pytest.raises(ValueError, match="b.csv line 2"):
+        manual.load(tmp_path)
+
+
+def test_manual_rows_reference_known_sources(obs):
+    ids = {s.id for s in load_sources()}
+    assert all(o.source_id in ids for o in obs)
+
+
+def test_thai_unverified_figures_are_confidence_c_and_not_plotted_with_others(obs):
+    th_src = {"robert_walters_th_2026", "michaelpage_th", "depa_digital_survey_2025", "tdri_ai_labour_2025"}
+    rows = [o for o in obs if o.source_id in th_src]
+    assert rows and all(o.confidence == Confidence.C and o.reported_via for o in rows)
+    assert "ai_posting_share_tdri" not in {o.metric for o in obs if o.metric in ("ai_skill_share", "ai_keyword_share")}

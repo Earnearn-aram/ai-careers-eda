@@ -15,10 +15,14 @@ An exploratory, neutral, source-traceable look at how AI-related careers changed
 | FX | ECB reference rates dated 2026-10-09 |
 | Indeed Hiring Lab articles (6 read: seniority, AI-titled roles, software postings, advertised pay; US, Europe for titles only) | Fetched from `hiringlab.indeed.com` (crawl-delay respected); confidence A |
 | Not reachable | BLS (403), JobsDB (403), Wayback |
-| Thai role-level pay and demand | Unverified seed values only (confidence C); JobsDB snapshot log is empty |
+| Thai role-level pay and demand | Not obtainable from the build environment (Thai recruiter, official and job-board hosts blocked or 403). A few Thai figures seen via search summaries are confidence C; the plan's seed pay figures are unverified. JobsDB log is empty |
 | Role pages | Pay where data exists; other lenses state "no data collected" |
 
 Raw files from third parties are not committed; `data/raw/MANIFEST.csv` lists URL, date and sha256, and `scripts/fetch_raw.sh` re-fetches and compares.
+
+## Adding Thai (or any) figures by hand
+
+See [docs/THAILAND_COLLECTION.md](docs/THAILAND_COLLECTION.md): which sources to read in a browser, what to record, and how to add rows to `data/manual/*.csv` (validated at build; a bad row fails with file and line).
 
 ## Use
 

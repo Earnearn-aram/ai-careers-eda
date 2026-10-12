@@ -105,7 +105,7 @@
   "retrieved_on": null,
   "tier": "primary",
   "status": "unreachable",
-  "notes": "Singapore bands seen only via secondary."
+  "notes": "Salary survey is gated behind a request form (free). Singapore bands seen only via secondary. Hiring-guide blog pages (robertwalters.co.th) blocked from the build environment."
  },
  {
   "id": "bls_oews",
@@ -178,5 +178,59 @@
   "tier": "primary",
   "status": "fetched",
   "notes": "Rates dated 2026-10-09. Reference rates, cross-computed to USD."
+ },
+ {
+  "id": "robert_walters_th_2026",
+  "name": "Robert Walters Thailand salary survey / hiring guides 2026",
+  "url": "https://www.robertwalters.co.th/salarysurvey.html",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Survey is gated (request form). 'Over 67%' skills-shortage figure seen only via The Story Thailand (search summary, page not fetched)."
+ },
+ {
+  "id": "michaelpage_th",
+  "name": "Michael Page Thailand (salary guide, job listings)",
+  "url": "https://www.michaelpage.co.th/",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Salary guide is a free download. One advertised Senior ML Engineer listing seen via search summary only."
+ },
+ {
+  "id": "monroe_th_2026",
+  "name": "Monroe Consulting Thailand Salary Guide and Talent Market Report 2026",
+  "url": "https://www.monroeconsulting.com/thailand-salary-guide-and-talent-market-report-2026",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Not yet read."
+ },
+ {
+  "id": "adecco_th_2025",
+  "name": "Adecco Thailand Salary Guide 2025",
+  "url": "https://prd.adecco.co.th/salary-guide/download-file?year=2025",
+  "retrieved_on": null,
+  "tier": "primary",
+  "status": "unreachable",
+  "notes": "Host blocked. Has an IT section; not yet read."
+ },
+ {
+  "id": "depa_digital_survey_2025",
+  "name": "DEPA digital industry workforce survey 2025 (via Thairath Online)",
+  "url": "https://en.thairath.co.th/news/politic/2958291",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Figures seen via search summary of the Thairath article (release date 8 Sep 2026 per that summary, not confirmed on DEPA's site). Find the DEPA report itself."
+ },
+ {
+  "id": "tdri_ai_labour_2025",
+  "name": "TDRI report on the 2025 AI labour market (via aitif.bde.go.th)",
+  "url": "https://aitif.bde.go.th/?p=33350",
+  "retrieved_on": null,
+  "tier": "secondary",
+  "status": "unreachable",
+  "notes": "Undated Thai government page citing TDRI; seen only via search summary. Definitions unknown; 37% figure is far above Lightcast/Indeed shares and not comparable."
  }
 ]

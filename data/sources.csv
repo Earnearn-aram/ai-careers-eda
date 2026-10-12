@@ -10,7 +10,7 @@ levels_fyi,Levels.fyi (AI Engineer / ML / DS / DE / DA by country),https://www.l
 eri_salaryexpert,ERI SalaryExpert,https://www.salaryexpert.com/,,primary,unreachable,Estimate model.
 evantis_th_2026,Evantis Thailand Salary Guide 2026,https://www.evantis.co.th/,,primary,unreachable,Recruiter-estimated monthly base.
 morgan_mckinley_sg,Morgan McKinley Singapore salary guide,https://www.morganmckinley.com/sg,,primary,unreachable,
-robert_walters,Robert Walters SG/TH salary survey,https://www.robertwalters.com/,,primary,unreachable,Singapore bands seen only via secondary.
+robert_walters,Robert Walters SG/TH salary survey,https://www.robertwalters.com/,,primary,unreachable,Salary survey is gated behind a request form (free). Singapore bands seen only via secondary. Hiring-guide blog pages (robertwalters.co.th) blocked from the build environment.
 bls_oews,BLS OEWS,https://www.bls.gov/oes/,,primary,unreachable,www.bls.gov returns 403 to the build environment.
 jobsdb_th,JobsDB Thailand search result counts,https://th.jobsdb.com/,,primary,unreachable,th.jobsdb.com returns 403; counts must be read manually. Snapshot log: data/processed/thailand_jobsdb_snapshots.csv.
 aws_summit_bkk_2026,AWS Summit Bangkok 2026 (via secondary),https://aws.amazon.com/,,secondary,unreachable,Talent shortage 51%.
@@ -19,3 +19,9 @@ predictleads_eu_ai,PredictLeads Europe AI engineering postings,https://predictle
 plan_seed_2026_10_12,Seed figures in PLAN.md (first research pass 12 Oct 2026),PLAN.md,2026-10-12,secondary,fetched,Unverified starting points. Used only as confidence C.
 owid_lightcast_ai_index_2026,Our World in Data: Share of AI jobs among all job postings (Lightcast via AI Index 2026),https://ourworldindata.org/grapher/share-artificial-intelligence-job-postings,2026-10-12,primary,fetched,"CSV + metadata in data/raw/owid (CC BY). 22 economies, 2014-2025; Thailand not covered. Lightcast last updated 2026-04-20 per OWID. 11 economies' 2025 values match AI Index Figure 4.4.2 labels."
 ecb_fx,ECB euro foreign exchange reference rates,https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml,2026-10-12,primary,fetched,"Rates dated 2026-10-09. Reference rates, cross-computed to USD."
+robert_walters_th_2026,Robert Walters Thailand salary survey / hiring guides 2026,https://www.robertwalters.co.th/salarysurvey.html,,primary,unreachable,"Host blocked. Survey is gated (request form). 'Over 67%' skills-shortage figure seen only via The Story Thailand (search summary, page not fetched)."
+michaelpage_th,"Michael Page Thailand (salary guide, job listings)",https://www.michaelpage.co.th/,,primary,unreachable,Host blocked. Salary guide is a free download. One advertised Senior ML Engineer listing seen via search summary only.
+monroe_th_2026,Monroe Consulting Thailand Salary Guide and Talent Market Report 2026,https://www.monroeconsulting.com/thailand-salary-guide-and-talent-market-report-2026,,primary,unreachable,Host blocked. Not yet read.
+adecco_th_2025,Adecco Thailand Salary Guide 2025,https://prd.adecco.co.th/salary-guide/download-file?year=2025,,primary,unreachable,Host blocked. Has an IT section; not yet read.
+depa_digital_survey_2025,DEPA digital industry workforce survey 2025 (via Thairath Online),https://en.thairath.co.th/news/politic/2958291,,secondary,unreachable,"Figures seen via search summary of the Thairath article (release date 8 Sep 2026 per that summary, not confirmed on DEPA's site). Find the DEPA report itself."
+tdri_ai_labour_2025,TDRI report on the 2025 AI labour market (via aitif.bde.go.th),https://aitif.bde.go.th/?p=33350,,secondary,unreachable,Undated Thai government page citing TDRI; seen only via search summary. Definitions unknown; 37% figure is far above Lightcast/Indeed shares and not comparable.
